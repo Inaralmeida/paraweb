@@ -8,12 +8,14 @@ import Representatividade from "./pages/Representatividade/Representatividade";
 import Tecnologia from "./pages/Tecnologia/Tecnologia";
 import Apoio from "./pages/Apoio/Apoio";
 import Sobre from "./pages/Sobre/Sobre";
+import Header from "./components/Header/Header";
 
 const Routes = () => {
   return (
     <BrowserRouter>
       <ThemeProvider theme={theme}>
         <GlobalStyle />
+        <Header />
         <Switch>
           <Route path="/" element={<Home />} />
           <Route path="/historias/:titulo" element={<Historias />} />

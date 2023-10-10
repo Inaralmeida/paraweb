@@ -8,13 +8,9 @@ export const GlobalStyle = createGlobalStyle`
     color: #222;
   }
 
-  :root,body{
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
+
+  li{
+    list-style: none;
   }
 
   a{
@@ -25,12 +21,28 @@ export const GlobalStyle = createGlobalStyle`
     font-weight: 400;
     line-height: normal;
     text-transform: uppercase;
+    transition: all 0.2s;
+
+    &:hover{
+      text-decoration-line: underline;
+    }
     
     &.active{
       
     font-weight: 700;
     text-decoration-line: underline;
     }
+  }
+
+  h1{
+    color: ${(props) => props.theme.blue500};;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
   }
 
   .text{
@@ -69,10 +81,10 @@ export const GlobalStyle = createGlobalStyle`
 
   .title-destaque{
     font-family: 'Lobster Two', sans-serif;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
   }
 
   .title-banner{
