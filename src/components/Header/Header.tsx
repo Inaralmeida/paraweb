@@ -1,10 +1,15 @@
 import styled from "styled-components";
 import Link, { EnumColor, ILinkProps } from "../Link/Link";
+import { useState } from "react";
+import IconClose from "../../assets/icons/Close";
+import IconMenu from "../../assets/icons/Menu";
+import { useMediaQuery } from "react-responsive";
 
 const Header = () => {
+  const [openMenu, setOpenMenu] = useState(false);
   const links: ILinkProps[] = [
     {
-      id: "1",
+      id: "0",
       title: "home",
       to: "/",
       color: EnumColor["pink"],
@@ -52,21 +57,46 @@ const Header = () => {
       subLink: false,
     },
   ];
+
+  const isNotMobile = useMediaQuery({ minWidth: 437 });
+  console.log(isNotMobile || openMenu);
   return (
     <StylesHeader>
-      <h1>PARAWEB</h1>
-      <ul>
-        {links.map((link) => (
-          <Link
-            color={link.color}
-            label={link.label}
-            subLink={link.subLink}
-            title={link.title}
-            to={link.to}
-            key={link.id}
-          />
-        ))}
-      </ul>
+      <div>
+        <h1>PARAWEB</h1>
+
+        <section className="btns-menu-open-and-closed">
+          {!openMenu ? (
+            <button
+              aria-label="Botão para abrir o menu de paginas"
+              onClick={() => setOpenMenu(!openMenu)}
+            >
+              <IconMenu />
+            </button>
+          ) : (
+            <button
+              aria-label="Botão para fechar o menu de paginas"
+              onClick={() => setOpenMenu(!openMenu)}
+            >
+              <IconClose />
+            </button>
+          )}
+        </section>
+      </div>
+      {(isNotMobile || openMenu) && (
+        <ul>
+          {links.map((link) => (
+            <Link
+              color={link.color}
+              label={link.label}
+              subLink={link.subLink}
+              title={link.title}
+              to={link.to}
+              key={link.id}
+            />
+          ))}
+        </ul>
+      )}
     </StylesHeader>
   );
 };
@@ -78,13 +108,51 @@ const StylesHeader = styled.header`
   display: flex;
   flex-direction: column;
 
-  h1 {
+  div {
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 12px 12px 24px 12px;
+
+    > .btns-menu-open-and-closed {
+      display: none;
+    }
   }
   ul {
     padding: 0;
     width: 100%;
     display: flex;
+
+    @media (max-width: 768px) {
+      flex-wrap: wrap;
+    }
+  }
+
+  @media (max-width: 437px) {
+    div {
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px;
+      > .btns-menu-open-and-closed {
+        display: flex;
+        width: fit-content;
+        height: fit-content;
+        > button {
+          width: fit-content;
+          height: fit-content;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border: none;
+          outline: none;
+          background: transparent;
+        }
+      }
+    }
+    ul {
+      flex-direction: column;
+      flex-wrap: nowrap;
+    }
   }
 `;
