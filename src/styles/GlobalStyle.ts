@@ -89,10 +89,11 @@ export const GlobalStyle = createGlobalStyle`
 
   .title-banner{
     color: ${(props) => props.theme.white50};
-    font-family: 'Lobster Two', sans-serif;
-    font-size: 32px;
+    font-family: 'Montserrat';
+    font-size: 64px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     line-height: normal;
+    text-transform: uppercase;
   }
 `;

@@ -1,27 +1,8 @@
-# React + TypeScript + Vite
+direitos autorais:
+Imagem banner pagina histórias de vida: Foto de <a href="https://unsplash.com/pt-br/@nathananderson?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Nathan Anderson</a> na <a href="https://unsplash.com/pt-br/fotografias/GM5Yn5XRVqA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Imagem banner pagina representatividade feminina: <a href="https://br.freepik.com/fotos-gratis/mulher-com-deficiencia-treinando-na-academia-do-centro-de-reabilitacao_10718185.htm#page=2&query=woman%20disabled%20athlete&position=0&from_view=search&track=ais">Imagem de master1305</a> no Freepik
 
-Currently, two official plugins are available:
+Imagem banner pagina busca por apoio: Imagem de <a href="https://br.freepik.com/fotos-gratis/amigo-ajudando-sorridente-homem-com-deficiencia-tiro-completo_25959925.htm#page=2&query=visually%20impaired%20people&position=7&from_view=search&track=ais">Freepik</a>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Imagem banner pagina tecnologia: <a href="https://br.freepik.com/fotos-gratis/homem-usando-oculos-inteligentes-e-mostrando-tecnologia-futurista-de-tela-holografica_12187470.htm#query=tech&position=4&from_view=search&track=sph">Imagem de rawpixel.com</a> no Freepik
