@@ -53,10 +53,11 @@ export const GlobalStyle = createGlobalStyle`
   line-height: 30px;
   }
 
-   .text-subtitle{
+   .subtitle{
     font-size: 24px;
     font-weight: 500;
     line-height: normal;
+    
   }
 
    .small{
