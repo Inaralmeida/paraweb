@@ -1,5 +1,11 @@
+import Banner from "../../components/Banner/Banner";
+
 const Tecnologia = () => {
-  return <div>Tecnologia</div>;
+  return (
+    <div>
+      <Banner title="Tecnologia" image="/tech.jpg" />
+    </div>
+  );
 };
 
 export default Tecnologia;
