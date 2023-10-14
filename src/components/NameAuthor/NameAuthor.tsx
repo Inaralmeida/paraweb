@@ -1,9 +1,5 @@
 import styled from "styled-components";
-
-interface INameAuthorProps {
-  name: string;
-  data: string;
-}
+import { INameAuthorProps } from "../../core/interfaces";
 
 const NameAuthor = ({ name, data }: INameAuthorProps) => {
   return (
@@ -25,7 +21,8 @@ const NameAuthor = ({ name, data }: INameAuthorProps) => {
 export default NameAuthor;
 
 const StyleNameAuthor = styled.p`
-  width: 388px;
+  width: 100%;
+  max-width: 388px;
   display: flex;
   flex-direction: column;
   align-items: center;
