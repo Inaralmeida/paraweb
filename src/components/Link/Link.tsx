@@ -1,27 +1,13 @@
-import { NavLink, useParams } from "react-router-dom";
+import { NavLink, useLocation, useParams } from "react-router-dom";
 import styled, { useTheme } from "styled-components";
-
-export enum EnumColor {
-  "yellow",
-  "orange",
-  "green",
-  "blue",
-  "pink",
-}
-
-export interface ILinkProps {
-  id?: string;
-  title: string;
-  to: string;
-  color: EnumColor;
-  subLink: boolean;
-  label: string;
-}
+import { EnumColor, ILinkProps } from "../../core/interfaces";
 
 const Link = ({ title, to, color, label, subLink }: ILinkProps) => {
   const params = useParams();
   const theme = useTheme();
-  const linkIsActive = params.title === title;
+  const location = useLocation();
+  const linkIsActive =
+    params.title === title || location.pathname.includes(title);
 
   const handleSelectColor = (color: EnumColor) => {
     let style = {};

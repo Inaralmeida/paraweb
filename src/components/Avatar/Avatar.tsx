@@ -1,14 +1,7 @@
 import styled from "styled-components";
+import { IAvatarProps, IStyleAvatarProps } from "../../core/interfaces";
 
-interface IAvatarProps {
-  img: string;
-  alt: string;
-  size: number;
-}
 
-interface IStyleAvatarProps {
-  size: number;
-}
 const Avatar = ({ img, alt, size }: IAvatarProps) => {
   return (
     <StyleAvatar size={size} aria-label="Foto do entrevistado">
