@@ -13,6 +13,22 @@ export interface IContetHistorysProps {
   text: string;
 }
 
+export interface IContentRepresentatividadeProps {
+  id: string;
+  title: string;
+  titlePage: string;
+  interviewed: string;
+  photoInterviewed: string;
+  headline: string;
+  phraseImpact: string;
+  nameAuthor: string;
+  linkVideo: string;
+  publicationDate: string;
+  text: string;
+  dataInterviewed: string;
+
+}
+
 export interface IAvatarProps {
   img: string;
   alt: string;

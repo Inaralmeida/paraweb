@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import Banner from "../../components/Banner/Banner";
 import Link from "../../components/Link/Link";
-import { contentHistorias } from "../../core/data";
+import { contentHistorias } from "../../core/contentHistorias";
 import { EnumColor, IContetHistorysProps } from "../../core/interfaces";
 import { useEffect } from "react";
 import { useState } from "react";
@@ -14,9 +14,9 @@ import { useMediaQuery } from "react-responsive";
 
 const Historias = () => {
   const params = useParams();
-  const [contentPage, setContentPage] = useState<IContetHistorysProps | null>();
   const isMobile = useMediaQuery({ maxWidth: "623px" });
   const isTablet = useMediaQuery({ maxWidth: "780px" });
+  const [contentPage, setContentPage] = useState<IContetHistorysProps | null>();
   const internalPages = contentHistorias.map((page) => {
     return {
       title: page.title,
