@@ -30,8 +30,8 @@ const StyleBanner = styled.div<IBannerProps>`
     background-color: ${(props) => props.theme.shadow50};
     text-align: center;
 
-    @media screen and (max-width: 321px) {
-      font-size: 53px;
+    @media screen and (max-width: 475px) {
+      font-size: 28px;
     }
   }
 `;
