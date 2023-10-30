@@ -1,19 +1,20 @@
-import { useParams } from "react-router-dom";
-import Banner from "../../components/Banner/Banner";
-import Link from "../../components/Link/Link";
-import { contentHistorias } from "../../core/contentHistorias";
-import { EnumColor, IContetHistorysProps } from "../../core/interfaces";
-import { useEffect } from "react";
-import { useState } from "react";
-import Avatar from "../../components/Avatar/Avatar";
-import PhraseHighlight from "../../components/PhraseHighlight/PhraseHighlight";
-import NameAuthor from "../../components/NameAuthor/NameAuthor";
-import { StylesHistory } from "./historias.styles";
+import { useEffect, useState } from "react";
 import ReactAudioPlayer from "react-audio-player";
 import { useMediaQuery } from "react-responsive";
+import { useParams } from "react-router-dom";
+import Avatar from "../../components/Avatar/Avatar";
+import Banner from "../../components/Banner/Banner";
+import Link from "../../components/Link/Link";
+import NameAuthor from "../../components/NameAuthor/NameAuthor";
+import PhraseHighlight from "../../components/PhraseHighlight/PhraseHighlight";
+import Transcription from "../../components/Transcriptions";
+import { contentHistorias } from "../../core/contentHistorias";
+import { EnumColor, IContetHistorysProps } from "../../core/interfaces";
+import { StylesHistory } from "./historias.styles";
 
 const Historias = () => {
   const params = useParams();
+  const [timeCurrent, setTimeCurrent] = useState(0);
   const isMobile = useMediaQuery({ maxWidth: "623px" });
   const isTablet = useMediaQuery({ maxWidth: "780px" });
   const [contentPage, setContentPage] = useState<IContetHistorysProps | null>();
@@ -26,13 +27,16 @@ const Historias = () => {
   });
 
   useEffect(() => {
+    console.log("contentPage", contentPage);
+  }, [contentPage]);
+
+  useEffect(() => {
     const titlePage = params.titulo;
 
     const [currentPage] = contentHistorias.filter(
       (page) => page.titlePage === titlePage
     );
     setContentPage(currentPage ? currentPage : null);
-
   }, [params]);
   return (
     <StylesHistory>
@@ -52,7 +56,7 @@ const Historias = () => {
       </ul>
       {contentPage && (
         <>
-          <section>
+          <section className="title">
             <Avatar
               alt={contentPage.interviewed}
               img={contentPage.photoInterviewed}
@@ -71,21 +75,28 @@ const Historias = () => {
             </div>
           </section>
 
-          <section className="podcast">
-            <h3 className="title-destaque">{contentPage.headline}</h3>
+          <section className="content">
+            <section className="materia">
+              <h3 className="title-destaque">{contentPage.headline}</h3>
 
-            <ReactAudioPlayer
-              title="podcast"
-              className="player"
-              src={contentPage.linkPodcast}
-              style={{ width: isMobile ? "100%" : "30vw" }}
-              controls
-            />
-          </section>
+              <p className="text">{contentPage.text}</p>
+            </section>
 
-          <section className="materia">
-            <p className="text">{contentPage.text}</p>
-
+            <div className="podcast">
+              <ReactAudioPlayer
+                title="podcast"
+                listenInterval={500}
+                className="player"
+                src={contentPage.linkPodcast}
+                style={{ width: "100%" }}
+                controls
+                onListen={(e) => setTimeCurrent(e)}
+              />
+              <Transcription
+                currentTime={timeCurrent}
+                transcription={contentPage.transcription}
+              />
+            </div>
           </section>
         </>
       )}
