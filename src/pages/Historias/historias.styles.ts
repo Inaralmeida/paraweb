@@ -15,36 +15,40 @@ export const StylesHistory = styled.main`
     width: 100%;
     padding: 24px 50px;
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 24px;
 
-    > .author,
-    .podcast {
+    &.title {
+      justify-content: center;
+    }
+    > .author {
+      width: 50%;
+      max-width: 750px;
       display: flex;
       flex-direction: column;
       align-items: center;
       gap: 48px;
-      justify-content: space-evenly;
     }
 
+    &.content {
+      max-width: 1200px;
+    }
     > .podcast {
-      > h3 {
-        width: 48%;
-        max-width: 350px;
-      }
-
-      > .react-audio-player .player {
-        width: 48%;
-        max-width: 540px;
-      }
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      gap: 12px;
     }
 
-    /* &.materia {
-      width: 80%;
-      height: 300px;
+    > .materia {
+      width: 50%;
+      height: auto;
       display: flex;
-      flex-wrap: wrap;
-    } */
+      flex-direction: column;
+      gap: 24px;
+    }
     > .text {
       column-count: 2;
       column-width: 48%;
@@ -58,23 +62,31 @@ export const StylesHistory = styled.main`
       align-items: center;
       gap: 48px;
       justify-content: space-evenly;
+      padding: 24px;
 
       > .author,
-      .podcast {
+      .podcast,
+      .materia {
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 48px;
         justify-content: space-evenly;
+        text-align: center;
 
         > .player,
         > h3 {
           width: 100%;
+          text-align: center;
         }
       }
 
+      > .author {
+        width: 60%;
+      }
       > .text {
+        text-align: center;
         column-count: 1;
         column-width: 98%;
         margin-bottom: 24px;

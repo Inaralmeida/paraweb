@@ -78,6 +78,9 @@ export const GlobalStyle = createGlobalStyle`
     font-style: italic;
     font-weight: 400;
     line-height: normal;
+    @media screen and (max-width: 623px) {
+      font-size: 32px;
+    }
   }
 
   .title-destaque{

@@ -1,16 +1,25 @@
 //----------------INTERFACES---------------------
+
+export interface TranscriptionProps {
+  text: string;
+  startTime: string;
+  endTime: string;
+}
 export interface IContetHistorysProps {
   id: string;
   title: string;
   titlePage: string;
   interviewed: string;
   photoInterviewed: string;
+  descriptionsPhotoInterviewed: string;
   headline: string;
   phraseImpact: string;
   nameAuthor: string;
   linkPodcast: string;
   publicationDate: string;
   text: string;
+  linkTranscription: string;
+  transcription: TranscriptionProps[];
 }
 
 export interface IContentRepresentatividadeProps {
@@ -26,7 +35,6 @@ export interface IContentRepresentatividadeProps {
   publicationDate: string;
   text: string;
   dataInterviewed: string;
-
 }
 
 export interface IAvatarProps {

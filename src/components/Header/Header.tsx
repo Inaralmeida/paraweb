@@ -1,10 +1,10 @@
-import styled from "styled-components";
-import Link from "../Link/Link";
 import { useState } from "react";
+import { useMediaQuery } from "react-responsive";
+import styled from "styled-components";
 import IconClose from "../../assets/icons/Close";
 import IconMenu from "../../assets/icons/Menu";
-import { useMediaQuery } from "react-responsive";
 import { EnumColor, ILinkProps } from "../../core/interfaces";
+import Link from "../Link/Link";
 
 const Header = () => {
   const [openMenu, setOpenMenu] = useState(false);
@@ -20,9 +20,9 @@ const Header = () => {
     {
       id: "1",
       title: "historias",
-      to: "/historias/historia-um",
+      to: "/historias/daniel-dias",
       color: EnumColor["yellow"],
-      label: "Hitórias de Vida",
+      label: "Histórias de Vida",
       subLink: false,
     },
     {
@@ -135,7 +135,7 @@ const StylesHeader = styled.header`
       justify-content: space-between;
       padding: 12px;
 
-      > h1{
+      > h1 {
         font-size: 32px;
       }
       > .btns-menu-open-and-closed {
