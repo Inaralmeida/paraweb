@@ -97,6 +97,7 @@ const Transcription = ({
 export default Transcription;
 
 const StyleDescription = styled.div`
+width: 100%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
