@@ -24,23 +24,23 @@ const Historias = () => {
       titlePage: page.titlePage,
       id: page.id,
     };
-  });
+  })
 
-  useEffect(() => {
-    console.log("contentPage", contentPage);
-  }, [contentPage]);
+  const imageP = `/banners/banner_historiasdevida_p.jpeg`
+  const imageM = `/banners/banner_historiasdevida_m.jpeg`
+  const imageG = `/banners/banner_historiasdevida_g.png`
 
+  const imageBanner = isMobile ? imageP : isTablet ? imageM : imageG;
   useEffect(() => {
     const titlePage = params.titulo;
-
     const [currentPage] = contentHistorias.filter(
       (page) => page.titlePage === titlePage
-    );
+      );
     setContentPage(currentPage ? currentPage : null);
   }, [params]);
   return (
     <StylesHistory>
-      <Banner title="Histórias de vida" image="/historias.jpg" />
+      <Banner title="Histórias de vida" image={imageBanner} />
       <ul style={{ display: "flex" }}>
         {internalPages.map((page) => (
           <Link
@@ -79,7 +79,13 @@ const Historias = () => {
             <section className="materia">
               <h3 className="title-destaque">{contentPage.headline}</h3>
 
-              <p className="text">{contentPage.text}</p>
+              <div className="textContent">
+                {contentPage.text.map((item: string, index: number) => (
+                  <p key={index} className="text">
+                    {item}
+                  </p>
+                ))}
+              </div>
             </section>
 
             <div className="podcast">
