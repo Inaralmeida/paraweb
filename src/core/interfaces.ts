@@ -17,7 +17,7 @@ export interface IContetHistorysProps {
   nameAuthor: string;
   linkPodcast: string;
   publicationDate: string;
-  text: string;
+  text: string[];
   linkTranscription: string;
   transcription: TranscriptionProps[];
 }
