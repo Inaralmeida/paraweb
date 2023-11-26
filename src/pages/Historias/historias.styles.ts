@@ -31,10 +31,11 @@ export const StylesHistory = styled.main`
     }
 
     &.content {
+      flex-direction: column;
       max-width: 1200px;
     }
     > .podcast {
-      width: 50%;
+      width: 100%;
       display: flex;
       flex-direction: column;
       align-items: flex-start;
@@ -43,16 +44,20 @@ export const StylesHistory = styled.main`
     }
 
     > .materia {
-      width: 50%;
       height: auto;
       display: flex;
       flex-direction: column;
       gap: 24px;
+
+      > .textContent{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        padding:24px 0;
+      }
     }
     > .text {
-      column-count: 2;
-      column-width: 48%;
-      column-gap: 24px;
+      width: 100%;
       margin-bottom: 24px;
     }
 
