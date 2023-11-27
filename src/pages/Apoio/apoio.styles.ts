@@ -21,6 +21,7 @@ export const StylesApoio = styled.main`
       flex-direction: column;
       align-items: center;
       gap: 24px;
+      text-align: center;
     }
 
     &.content {
@@ -47,7 +48,6 @@ export const StylesApoio = styled.main`
       align-items: center;
       justify-content: center;
       gap:6px;
-
       > img{
         width: 50%;
         height: 100%;
@@ -60,8 +60,18 @@ export const StylesApoio = styled.main`
       align-items: center;
       gap: 48px;
       justify-content: space-evenly;
-      padding: 24px;
 
+      > .destaque > .title-destaque{
+  
+        text-align: center;
+      
+    }
+
+      &.textContent{
+    
+      padding: 12px;
+      text-align: center;
+    }
     
     }
   }
