@@ -10,7 +10,7 @@ export const transcriptionVeronica = [
     "endTime": "00:18"
   },
   {
-    "text": "Estamos hoje com Verônica Hipólito, velocista brasileira, medalhista para a Parapan-americana e paralímpica",
+    "text": "Estamos hoje com Verônica Hipólito, velocista brasileira, medalhista Parapan-americana e paralímpica",
     "startTime": "00:18",
     "endTime": "00:25"
   },
@@ -170,7 +170,7 @@ export const transcriptionVeronica = [
     "endTime": "03:21"
   },
   {
-    "text": "Só que eu acabei conhecendo um treinador que era do movimento...",
+    "text": "Só que eu acabei conhecendo um treinador que era do movimento",
     "startTime": "03:22",
     "endTime": "03:27"
   },
@@ -185,7 +185,7 @@ export const transcriptionVeronica = [
     "endTime": "03:39"
   },
   {
-    "text": "Inclusive eu estava com esse tema na ponta da língua, ia te perguntar agora sobre como tinha sido para ti essas transições entre os esportes.",
+    "text": "Inclusive, eu estava com esse tema na ponta da língua, ia te perguntar agora sobre como tinha sido para ti essas transições entre os esportes.",
     "startTime": "03:39",
     "endTime": "03:46"
   },
@@ -337,7 +337,7 @@ export const transcriptionVeronica = [
     "endTime": "06:16"
   },
   {
-    "text": "que é uma paralisia leve, moderada em dois membros do corpo, normalmente um braço e uma perna.",
+    "text": "que é uma paralisia leve, moderada, em dois membros do corpo, normalmente um braço e uma perna.",
     "startTime": "06:16",
     "endTime": "06:22"
   },
@@ -353,7 +353,7 @@ export const transcriptionVeronica = [
     "endTime": "06:28"
   },
   {
-    "text": "Nessa sua última resposta, foram citadas as três cirurgias na cabeça e uma no intestino grosso, além das rádios.",
+    "text": "Nessa sua última resposta, foram citadas as três cirurgias na cabeça e uma no intestino grosso, além das radios.",
     "startTime": "06:29",
     "endTime": "06:36"
   },
@@ -556,12 +556,12 @@ export const transcriptionVeronica = [
     "endTime": "09:48"
   },
   {
-    "text": "Então, minha família, ela foi, é e sempre será essencial no meu desenvolvimento.",
+    "text": "Então, minha família, ela foi, é e sempre será essencial no meu desenvolvimento",
     "startTime": "09:49",
     "endTime": "09:55"
   },
   {
-    "text": "Como atleta, e claramente, foram essenciais, e são essenciais no meu desenvolvimento como atleta",
+    "text": "como atleta, e claramente, foram essenciais, e são essenciais no meu desenvolvimento",
     "startTime": "09:55",
     "endTime": "10:04"
   },
@@ -717,7 +717,7 @@ export const transcriptionVeronica = [
   },
   { "text": "Então, fica aberto.", "startTime": "12:28", "endTime": "12:30" },
   {
-    "text": "A gente tem nosso site, Naurú.com.br, e redes sociais, time Naurú, Naurú Natação, e Naurú",
+    "text": "A gente tem nosso site, Nauru.com.br, e redes sociais, time Naurú, Naurú Natação, e Naurú",
     "startTime": "12:30",
     "endTime": "12:37"
   },
@@ -1021,7 +1021,7 @@ export const transcriptionVeronica = [
     "endTime": "16:48"
   },
   {
-    "text": "nos estudos, na saúde, ajuda.",
+    "text": "nos estudos, na saúde, ajude.",
     "startTime": "16:48",
     "endTime": "16:50"
   },
