@@ -37,7 +37,9 @@ export const StylesRepresentatividade = styled.main`
       font-weight: 600;
      }
     }
-
+    >h2{
+      margin-top: 58px;
+    }
   
 
     

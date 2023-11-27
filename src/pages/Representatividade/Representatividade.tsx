@@ -5,12 +5,13 @@ import { StylesRepresentatividade } from "./representatividade.styles";
 
 const Representatividade = () => {
   const isMobile = useMediaQuery({ maxWidth: "623px" });
+  const isTablet = useMediaQuery({ maxWidth: "780px" });
 
   return (
     <div>
       <Banner
         title="Representatividade feminina"
-        image="/representatividade.jpeg"
+        image="/banners/busca_representatividade.jpeg"
       />
       <StylesRepresentatividade>
         <section>
@@ -76,8 +77,8 @@ const Representatividade = () => {
 
           <iframe
             style={{ margin: "16px auto" }}
-            width={isMobile ? "100%" : "560"}
-            height="315"
+            width={isMobile ? "100%" : isTablet ? "560" : "720" }
+            height={isMobile ? "315" : isTablet ? "315" : "405" }
             src="https://www.youtube.com/embed/VplRCCV6w_U?si=znjAnCtv97SRxgsI"
             title="YouTube video player"
             frameBorder="0"
@@ -100,8 +101,8 @@ const Representatividade = () => {
           </p>
           <iframe
             style={{ margin: "16px auto" }}
-            width={isMobile ? "100%" : "560"}
-            height="315"
+            width={isMobile ? "100%" : isTablet ? "560" : "720" }
+            height={isMobile ? "315" : isTablet ? "315" : "405" }
             src="https://www.youtube.com/embed/4QJXcDqhrpM?si=RhzkLr1R9wlAOfgC"
             title="YouTube video player"
             frameBorder="0"
@@ -122,8 +123,8 @@ const Representatividade = () => {
 
           <iframe
             style={{ margin: "16px auto" }}
-            width={isMobile ? "100%" : "560"}
-            height="315"
+            width={isMobile ? "100%" : isTablet ? "560" : "720" }
+            height={isMobile ? "315" : isTablet ? "315" : "405" }
             src="https://www.youtube.com/embed/ZYsfHVFgzcI?si=K0d3Yn7dRdaLAA8g"
             title="YouTube video player"
             frameBorder="0"
@@ -143,8 +144,8 @@ const Representatividade = () => {
 
           <iframe
             style={{ margin: "16px auto" }}
-            width={isMobile ? "100%" : "560"}
-            height="315"
+            width={isMobile ? "100%" : isTablet ? "560" : "720" }
+            height="400"
             src="https://www.youtube.com/embed/hUVX5ngPpI4?si=K1w0IhOboZi1_5sp"
             title="YouTube video player"
             frameBorder="0"
@@ -167,8 +168,8 @@ const Representatividade = () => {
           </p>
           <iframe
             style={{ margin: "16px auto" }}
-            width={isMobile ? "100%" : "560"}
-            height="315"
+            width={isMobile ? "100%" : isTablet ? "560" : "720" }
+            height={isMobile ? "315" : isTablet ? "315" : "405" }
             src="https://www.youtube.com/embed/mL9H-jeIMLQ?si=5dZGRdTFtjeGTdUL"
             title="YouTube video player"
             frameBorder="0"
@@ -183,8 +184,8 @@ const Representatividade = () => {
           </p>
           <iframe
             style={{ margin: "16px auto" }}
-            width={isMobile ? "100%" : "560"}
-            height="315"
+            width={isMobile ? "100%" : isTablet ? "560" : "720" }
+            height={isMobile ? "315" : isTablet ? "315" : "405" }
             src="https://www.youtube.com/embed/IvKWvcUGmDQ?si=Qs0Qp-4V-4_JnU8I"
             title="YouTube video player"
             frameBorder="0"
@@ -192,7 +193,7 @@ const Representatividade = () => {
             allowFullScreen
           ></iframe>
 
-          <h3>Além do Tatame: uma jornada de disciplina e conquistas </h3>
+          <h2>Além do Tatame: uma jornada de disciplina e conquistas </h2>
 
           <p className="text">
             Assim como Carol Santiago, a taekwondista Debora Menezes segue uma
@@ -211,8 +212,8 @@ const Representatividade = () => {
           </p>
           <iframe
             style={{ margin: "16px auto" }}
-            width={isMobile ? "100%" : "560"}
-            height="315"
+            width={isMobile ? "100%" : isTablet ? "560" : "720" }
+            height={isMobile ? "315" : isTablet ? "315" : "405" }
             src="https://www.youtube.com/embed/psiL1pzQZ2s?si=atn1fN76-QYLqjrm"
             title="YouTube video player"
             frameBorder="0"
@@ -239,8 +240,8 @@ const Representatividade = () => {
           </p>
           <iframe
             style={{ margin: "16px auto" }}
-            width={isMobile ? "100%" : "560"}
-            height="315"
+            width={isMobile ? "100%" : isTablet ? "560" : "720" }
+            height={isMobile ? "315" : isTablet ? "315" : "405" }
             src="https://www.youtube.com/embed/YkDYW1cGmdc?si=ABF9YC5WZ6Bq8ut7"
             title="YouTube video player"
             frameBorder="0"
@@ -273,8 +274,8 @@ const Representatividade = () => {
           </p>
           <iframe
             style={{ margin: "16px auto" }}
-            width={isMobile ? "100%" : "560"}
-            height="315"
+            width={isMobile ? "100%" : isTablet ? "560" : "720" }
+            height={isMobile ? "315" : isTablet ? "315" : "405" }
             src="https://www.youtube.com/embed/_CIrPPahmeQ?si=cPvewgjPX1iorTAF"
             title="YouTube video player"
             frameBorder="0"
@@ -300,8 +301,8 @@ const Representatividade = () => {
           </p>
           <iframe
             style={{ margin: "16px auto" }}
-            width={isMobile ? "100%" : "560"}
-            height="315"
+            width={isMobile ? "100%" : isTablet ? "560" : "720" }
+            height={isMobile ? "315" : isTablet ? "315" : "405" }
             src="https://www.youtube.com/embed/SL57_stCooA?si=NQzRVrEQnLDj6iN4"
             title="YouTube video player"
             frameBorder="0"
@@ -309,7 +310,7 @@ const Representatividade = () => {
             allowFullScreen
           ></iframe>
 
-          <h3>Construindo um Legado de Oportunidades Iguais para Todos </h3>
+          <h2>Construindo um Legado de Oportunidades Iguais para Todos </h2>
 
           <p className="text">
             A igualdade de gênero no esporte é um princípio fundamental que
@@ -348,8 +349,8 @@ const Representatividade = () => {
           </p>
           <iframe
             style={{ margin: "16px auto" }}
-            width={isMobile ? "100%" : "560"}
-            height="315"
+            width={isMobile ? "100%" : isTablet ? "560" : "720" }
+            height={isMobile ? "315" : isTablet ? "315" : "405" }
             src="https://www.youtube.com/embed/C4pG1gYHw9c?si=kv2IcjAJ6022uaLq"
             title="YouTube video player"
             frameBorder="0"
@@ -387,8 +388,8 @@ const Representatividade = () => {
           </p>
           <iframe
             style={{ margin: "16px auto" }}
-            width={isMobile ? "100%" : "560"}
-            height="315"
+            width={isMobile ? "100%" : isTablet ? "560" : "720" }
+            height={isMobile ? "315" : isTablet ? "315" : "405" }
             src="https://www.youtube.com/embed/u12yIxxfStE?si=vxn7PdPrwbBrM-CC"
             title="YouTube video player"
             frameBorder="0"
@@ -410,8 +411,8 @@ const Representatividade = () => {
 
           <iframe
             style={{ margin: "16px auto" }}
-            width={isMobile ? "100%" : "560"}
-            height="315"
+            width={isMobile ? "100%" : isTablet ? "560" : "720" }
+            height={isMobile ? "315" : isTablet ? "315" : "405" }
             src="https://www.youtube.com/embed/5WisFwtAOzo?si=dtEu6LR_KH2iRHR4"
             title="YouTube video player"
             frameBorder="0"
@@ -419,10 +420,10 @@ const Representatividade = () => {
             allowFullScreen
           ></iframe>
 
-          <h3>
+          <h2>
             Empoderando Organizações: O Nascimento do Projeto "Uma Vitória Leva
             à Outra"{" "}
-          </h3>
+          </h2>
           <p className="text">
             O projeto "Uma Vitória Leva à Outra" representa uma colaboração
             entre a ONU Mulheres e o Comitê Olímpico Internacional, em parceria
@@ -437,9 +438,9 @@ const Representatividade = () => {
             visa alcançar resultados duradouros na interrupção do ciclo de
             violência, de diversos tipos, contra as mulheres.{" "}
           </p>
-          <h3 className="text">
+          <h2>
             "O impacto da preparação física no alto desempenho esportivo"{" "}
-          </h3>
+          </h2>
           <p className="text">
             A preparação física de um atleta para os Jogos Paralímpicos é
             crucial no seu desempenho e no alcance de grandes resultados. A
@@ -472,8 +473,8 @@ const Representatividade = () => {
           </p>
           <iframe
             style={{ margin: "16px auto" }}
-            width={isMobile ? "100%" : "560"}
-            height="315"
+            width={isMobile ? "100%" : isTablet ? "560" : "720" }
+            height={isMobile ? "315" : isTablet ? "315" : "405" }
             src="https://www.youtube.com/embed/uRBx0XJ57VA?si=iMST5g_1AA3SxsgJ"
             title="YouTube video player"
             frameBorder="0"
@@ -495,8 +496,8 @@ const Representatividade = () => {
 
           <iframe
             style={{ margin: "16px auto" }}
-            width={isMobile ? "100%" : "560"}
-            height="315"
+            width={isMobile ? "100%" : isTablet ? "560" : "720" }
+            height={isMobile ? "315" : isTablet ? "315" : "405" }
             src="https://www.youtube.com/embed/XVtnG4LLcpg?si=9LjDFxGZ7hUsxI3a"
             title="YouTube video player"
             frameBorder="0"
@@ -525,8 +526,8 @@ const Representatividade = () => {
 
           <iframe
             style={{ margin: "16px auto" }}
-            width={isMobile ? "100%" : "560"}
-            height="315"
+            width={isMobile ? "100%" : isTablet ? "560" : "720" }
+            height={isMobile ? "315" : isTablet ? "315" : "405" }
             src="https://www.youtube.com/embed/1UAZwNeDeTg?si=DL19QlTBbMlrafpu"
             title="YouTube video player"
             frameBorder="0"
@@ -547,8 +548,8 @@ const Representatividade = () => {
 
           <iframe
             style={{ margin: "16px auto" }}
-            width={isMobile ? "100%" : "560"}
-            height="315"
+            width={isMobile ? "100%" : isTablet ? "560" : "720" }
+            height={isMobile ? "315" : isTablet ? "315" : "405" }
             src="https://www.youtube.com/embed/o7Q4lF9Tyf8?si=cTTBblk82boPY4Km"
             title="YouTube video player"
             frameBorder="0"
