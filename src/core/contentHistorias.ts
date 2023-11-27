@@ -1,4 +1,5 @@
 import { IContetHistorysProps } from "./interfaces";
+import { transcriptionArthur } from "./transcriptions/arthur";
 import { transcriptionDaniel } from "./transcriptions/danielDias";
 import { transcriptionVeronica } from "./transcriptions/veronica";
 
@@ -18,7 +19,7 @@ export const contentHistorias: IContetHistorysProps[] = [
     linkPodcast: "/historias/pdcDanielDias.ogg",
     linkTranscription: "/transcriptions/danielDias.ts",
     transcription: transcriptionDaniel,
-    publicationDate: "27 de Outubro de 2023",
+    publicationDate: "27 de novembro de 2023",
     text: [
       `Quais os principais obstáculos que o maior atleta paralímpico brasileiro encarou, inclusive na vida pessoal, para chegar ao auge profissional? Nascido em Campinas (SP), o multicampeão Daniel Dias afirma que passou por processos complexos e desafiadores até se transformar no principal nome da natação paralímpica do país.`,
       `“A escolha que eu fiz nesses momentos desafiadores da minha vida foi ser feliz. Fui em busca dos meus sonhos, dos meus objetivos e foi nesse processo, de escola, ali, criança, que eu fui entendendo a questão da minha deficiência, da má formação. Pude entender que nós somos diferentes. Nós temos características diferentes, mas isso não me faz menos do que ninguém”, disse o convidado do Podcast Relatos Paralímpicos. `,
@@ -29,10 +30,38 @@ export const contentHistorias: IContetHistorysProps[] = [
     ],
   },
   {
+    id: "dois",
+    title: "Arthur Dias",
+    titlePage: "arthur-dias",
+    interviewed: "Arthur Dias",
+    photoInterviewed: "/historias/historiasDeVida_Entrevistadoarthurdias.png",
+    descriptionsPhotoInterviewed:
+      "Imagem do atleta Arthur Dias na cadeira de rodas praticando parabadminton dentro de uma quadra. Com o braço direito, segura sua raquete. Ele utiliza camiseta regata verde e calça azul-marinho.",
+    headline:
+      "Atleta da classe WH1, voltada para cadeirantes, o jovem, que se machucou jogando futebol e viu no parabadminton a oportunidade de realizar um sonho esportivo, conta detalhes de como uma decepção o fez virar uma das maiores promessas do paradesporto brasileiro ",
+    phraseImpact: "O que mais me inspirou a seguir no esporte foi a minha primeira derrota",
+    nameAuthor: "Laís Gonella",
+    linkPodcast: "/historias/pdcArthur.ogg",
+    linkTranscription: "/transcriptions/athur.ts",
+    transcription: transcriptionArthur,
+    publicationDate: "27 de novembro de 2023",
+    text: [
+      `Escolher a profissão é um dos desafios mais complexos e determinantes durante o período de infância e de adolescência. Renúncias, conselhos e vontades passam pela cabeça de quem está nessa etapa da vida até o momento de, finalmente, escolher aquilo com o qual vai trabalhar durante a vida. `,
+      `Para Arthur Dias, de 17 anos de idade, o martelo foi batido de uma forma bem diferente da convencional, principalmente pelo fato dele ter que se adaptar à uma nova vida após sofrer uma lesão vertebral. “O primeiro esporte que eu me identifiquei foi o parabadminton. Comecei no parabadminton e foi ali que eu percebi que, para virar um atleta profissional, eu teria que saber perder e eu perdi o primeiro jogo. Não gostei disso. Treinei e aquela sensação ficou na minha mente por um ano, remoendo a derrota e isso foi o que mais me inspirou”, disse o convidado do Podcast Relatos Paralímpicos`,
+      `Prestes a completar a maioridade, Arthur já se considera uma referência no paradesporto, principalmente por inspirar garotos mais jovens na introdução ao parabadminton e na busca por atingir seus objetivos, já tendo, inclusive, alguns fãs mirins dentro da categoria.
+      `,
+      `Por falar em inspirações, ele cita que sua principal referência, o técnico Andrew Cassiano, foi o grande responsável pelo seu desenvolvimento como atleta. Ele foi também o divisor de águas para que Dias não desistisse do futuro no paradesporto durante a pandemia de Covid-19.
+      `,
+      `Ao Relatos Paralímpicos, a promessa brasileira do parabadminton demonstra otimismo ao falar que pode se tornar, em breve, um dos principais atletas dentro da modalidade, sonhando, inclusive, com competições internacionais de elite, como Jogos Parapan-americanos e Jogos Paralímpicos. 
+      `,
+      `Abaixo você pode escutar o episódio completo, que tem roteiro e apresentação de Laís Gonella.`,
+    ],
+  },
+  {
     id: "tres",
     title: "Verônica Hipólito",
     titlePage: "veronica-hipolito",
-    interviewed: "Veronica Hipólito",
+    interviewed: "Verônica Hipólito",
     photoInterviewed: "/historias/historiasDeVida_EntrevistadaVeronica.jpeg",
     descriptionsPhotoInterviewed:
       "Imagem da atleta Verônica Hipólito sorrindo ao caminhar com a bandeira do Brasil pela pista de atletismo. Ela utiliza um uniforme azul junto de uma placa de identificação com seu sobrenome “Silva”",
@@ -43,7 +72,7 @@ export const contentHistorias: IContetHistorysProps[] = [
     linkPodcast: "/historias/pdcVeronica.ogg",
     linkTranscription: "/transcriptions/veronica.ts",
     transcription: transcriptionVeronica,
-    publicationDate: "27 de Outubro de 2023",
+    publicationDate: "27 de novembro de 2023",
     text: [
       `O amor pelo esporte é algo presente na vida da paulista Verônica Hipólito, natural de São Bernardo do Campo. Ela é praticante de judô desde os 10 anos de idade, por incentivo dos pais José Dimas e Josenilda. Referência entre as velocistas, a atleta viu sua vida mudar aos 13 anos, quando precisou tirar um tumor do cérebro, o que a impediu de seguir nas atividades de grande impacto. `,
       `Pouco tempo depois, Hipólito sofreu um acidente vascular cerebral. "Eu não sabia que era uma pessoa com deficiência, porque ninguém me explicou depois do AVC que eu teria uma sequela do lado direito, por isso eu iria mancar, não ia falar tão bem, o meu braço ia ficar encolhido, ninguém me falou isso”, disse a convidada do Podcast Relatos Paralímpicos.`,
