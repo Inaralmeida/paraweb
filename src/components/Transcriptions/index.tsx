@@ -67,7 +67,7 @@ const Transcription = ({
           currentText[currentIndex],
           currentText[currentIndex + 1],
         ];
-      } else if (currentIndex === currentText.length - 1) {
+      } else if (currentIndex === currentText.length - 2) {
         prev = [
           currentText[currentIndex - 2],
           currentText[currentIndex - 1],
@@ -76,17 +76,18 @@ const Transcription = ({
       }
       return prev;
     });
-  }, [currentTime]);
 
+  }, [currentTime]);
+  
   return (
     <StyleDescription>
       {Array.isArray(listTextRender) &&
         listTextRender.length > 0 &&
         listTextRender.map((segment, index) => (
-          <span key={index} className={segment.className}>
+          <span key={index} className={segment?.className}>
             <p>
               {" "}
-              <small>{segment.time}</small> {segment.text}
+              <small>{segment?.time}</small> {segment?.text}
             </p>
           </span>
         ))}
