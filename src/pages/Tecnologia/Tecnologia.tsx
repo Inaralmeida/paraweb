@@ -5,7 +5,7 @@ import { StylesTech } from "./tecnologia.styles";
 const Tecnologia = () => {
   return ( 
     <div>
-      <Banner title="Tecnologia" image="/tech.jpg" />
+      <Banner title="Tecnologia" image="/banners/banner_tecnologia.jpg" />
       <StylesTech>
         <section>
           <div className="destaque">
