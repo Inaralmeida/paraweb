@@ -6,6 +6,7 @@ export const GlobalStyle = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
     color: #222;
+    font-family: 'Montserrat', sans-serif;
   }
 
 
@@ -15,7 +16,7 @@ export const GlobalStyle = createGlobalStyle`
 
   a{
     text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
+    
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -73,7 +74,6 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   .text-destaque{
-    font-family:'Lobster Two', sans-serif;
     font-size: 54px;
     font-style: italic;
     font-weight: 400;
@@ -84,7 +84,6 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   .title-destaque{
-    font-family: 'Lobster Two', sans-serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 400;

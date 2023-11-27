@@ -27,7 +27,7 @@ const StyleNameAuthor = styled.p`
   flex-direction: column;
   align-items: center;
   color: ${(props) => props.theme.black900};
-
+ text-align: center;
   > hr {
     width: 100%;
   }

@@ -69,9 +69,7 @@ export const StylesHistory = styled.main`
       justify-content: space-evenly;
       padding: 24px;
 
-      > .author,
-      .podcast,
-      .materia {
+      > .author {
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -80,7 +78,6 @@ export const StylesHistory = styled.main`
         justify-content: space-evenly;
         text-align: center;
 
-        > .player,
         > h3 {
           width: 100%;
           text-align: center;
