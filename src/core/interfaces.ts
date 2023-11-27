@@ -41,6 +41,7 @@ export interface IAvatarProps {
   img: string;
   alt: string;
   size: number;
+  hasShadow?: boolean;
 }
 
 export interface IBannerProps {
@@ -85,4 +86,5 @@ export interface IStylePhraseHighlightProps {
 
 export interface IStyleAvatarProps {
   size: number;
+  hasShadow?: boolean;
 }
