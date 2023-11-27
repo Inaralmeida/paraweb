@@ -25,6 +25,20 @@ export const StylesRepresentatividade = styled.main`
       margin: 0 auto;
     }
 
+    >.box-destaque{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      > .boxOrange{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        background-color: ${({ theme }) => theme.orange100};
+        border-radius: 12px;
+        padding: 12px;
+      }
+    }
     &.textContent{
       display: flex;
       flex-direction: column;

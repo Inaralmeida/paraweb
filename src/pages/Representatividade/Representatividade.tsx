@@ -420,6 +420,10 @@ const Representatividade = () => {
             allowFullScreen
           ></iframe>
 
+          <section className="box-destaque">
+          <h3>Você sabia?</h3>
+          
+          <div className="boxOrange">
           <h2>
             Empoderando Organizações: O Nascimento do Projeto "Uma Vitória Leva
             à Outra"{" "}
@@ -438,6 +442,9 @@ const Representatividade = () => {
             visa alcançar resultados duradouros na interrupção do ciclo de
             violência, de diversos tipos, contra as mulheres.{" "}
           </p>
+
+          </div>
+          </section>
           <h2>
             "O impacto da preparação física no alto desempenho esportivo"{" "}
           </h2>
