@@ -22,10 +22,10 @@ export const miniBioData = [
 },
 { name:'Leandro Fazano Cardoso',
   age:'21',
-  photo:'https://drive.google.com/drive/my-drive',
+  photo:'/bios/leandro.jpeg',
   alt:'Na imagem aparece Leandro Fazano Cardoso, um dos integrantes do site Paraweb. Posicionado em um fundo branco. ',
   email:'leandrofazano2001@gmail.com ',
-  text:''
+  text:'Desde pequeno apaixonado por esportes e por leitura. Resolvi escolher a profissão que pode questionar, estar perto e entender o dia a dia das pessoas que mais admiro, seja no esporte ou na política. Estagiei em 2021 no Greenpeace a atualmente faço textos para um campeonato de futebol Society.'
 },
 
 ]
