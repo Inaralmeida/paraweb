@@ -1,21 +1,21 @@
 export const transcriptionDaniel = [
   {
-    "text": "R.P. Podcast, o seu programa de relatos paralímpicos.",
+    "text": "RP Podcast, o seu programa de relatos paralímpicos.",
     "startTime": "00:02",
     "endTime": "00:08"
   },
   {
-    "text": "Meu nome é Laís Gunella e te apresento mais um episódio do R.P. Estamos hoje com ele, o maior medalhista paralímpico brasileiro,",
+    "text": "Meu nome é Laís Gonella e te apresento mais um episódio do RP. Estamos hoje com ele, o maior medalhista paralímpico brasileiro,",
     "startTime": "00:12",
     "endTime": "00:21"
   },
   {
-    "text": "que atualmente tem 35 anos e é o fundador de um instituto riquíssimo, tendo como nome o seu próprio nome. Você está onde os relatos paralímpicos valem ouro.",
+    "text": "que atualmente tem 35 anos e é o fundador de um Instituto riquíssimo, tendo como nome o seu próprio nome. Você está onde os relatos paralímpicos valem ouro.",
     "startTime": "00:21",
     "endTime": "00:31"
   },
   {
-    "text": "Oi, Daniel, tudo bem? Muito obrigada por estar aqui conosco, participando do nosso podcast. Vamos começar, então, contando um pouquinho para a gente quem é o Daniel Dias Pessoa, antes de se tornar o multicampeão Daniel Dias.",
+    "text": "Oi, Daniel, tudo bem? Muito obrigada por estar aqui conosco, participando do nosso podcast. Vamos começar, então, contando um pouquinho pra gente quem é o Daniel Dias, pessoa né, antes de se tornar o multicampeão Daniel Dias.",
     "startTime": "00:31",
     "endTime": "00:44"
   },
@@ -35,17 +35,17 @@ export const transcriptionDaniel = [
     "endTime": "01:19"
   },
   {
-    "text": "busca cada dia mais ter clareza nos seus objetivos, metas e tenta transmitir uma mensagem. Não diria de superação, mas uma mensagem que eu sempre levo comigo, do sorria para a vida, das escolhas que a gente faz na vida",
+    "text": "busca cada dia mais ter clareza nos seus objetivos, metas e tenta transmitir uma mensagem, não diria de superação, mas uma mensagem que eu sempre levo comigo, do sorria para a vida, das escolhas que a gente faz na vida",
     "startTime": "01:20",
     "endTime": "01:33"
   },
   {
-    "text": "e que a gente pode ser feliz e ir em busca dos nossos sonhos e dos nossos objetivos. E aí falando, aquele Daniel de Campinas, onde nasci, Camanducaia,",
+    "text": "e que a gente pode ser feliz e ir em busca dos nossos sonhos e dos nossos objetivos. E aí falando, né, aquele Daniel de Campinas, onde nasci, Camanducaia,",
     "startTime": "01:33",
     "endTime": "01:44"
   },
   {
-    "text": "onde vivi toda a minha infância, até aí conhecer o esporte paralímpico. Realmente, foi um momento especial tudo o que eu vivi na minha infância.",
+    "text": "onde vivi toda a minha infância, até aí, conhecer o esporte paralímpico, realmente, foi um momento especial tudo o que eu vivi na minha infância.",
     "startTime": "01:44",
     "endTime": "01:55"
   },
@@ -60,7 +60,7 @@ export const transcriptionDaniel = [
     "endTime": "02:21"
   },
   {
-    "text": "porque o esporte é uma linda ferramenta, uma ferramenta de inclusão, onde a gente pode mostrar os valores que o esporte nos ensina, aprender esses valores",
+    "text": "porque o esporte, ele é uma linda ferramenta, uma ferramenta de inclusão, onde a gente pode mostrar os valores que o esporte nos ensina, aprender esses valores",
     "startTime": "02:21",
     "endTime": "02:30"
   },
@@ -75,7 +75,7 @@ export const transcriptionDaniel = [
     "endTime": "02:51"
   },
   {
-    "text": "eu quero trazer à memória aquilo que me dá esperança e sempre que eu relembro, da minha infância, de momentos que eu vivi, me dá esperança de continuar, compartilhar a minha história",
+    "text": "[Eu quero trazer à memória aquilo que me dá esperança]. E sempre que eu relembro, da minha infância, de momentos que eu vivi, me dá esperança de continuar, compartilhar a minha história",
     "startTime": "02:51",
     "endTime": "02:59"
   },
@@ -85,7 +85,7 @@ export const transcriptionDaniel = [
     "endTime": "03:12"
   },
   {
-    "text": "E me explica como que foi a etapa de transformação do garoto para o atleta? Quem que te incentivou e quando que foi a primeira vez, de fato, que você entrou numa piscina? Eu diria que essa etapa de transformação todos nós passamos,",
+    "text": "E me explica como que foi a etapa de transformação, do garoto para o atleta? Quem que te incentivou e quando que foi a primeira vez, de fato, que você entrou numa piscina? Eu diria que essa etapa de transformação todos nós passamos, né,",
     "startTime": "03:12",
     "endTime": "03:25"
   },
@@ -100,7 +100,7 @@ export const transcriptionDaniel = [
     "endTime": "03:41"
   },
   {
-    "text": "eu quero ir para uma paralimpíada, eu quero ir para um campeonato mundial, para um parapã. Então esse processo, essa transformação, ela foi acontecendo naturalmente, de acordo com o que eu fui conhecendo do esporte,",
+    "text": "eu quero ir para uma paralimpíada, eu quero ir para um campeonato mundial, para um Parapan. Então esse processo, essa transformação, ela foi acontecendo naturalmente, de acordo com o que eu fui conhecendo do esporte,",
     "startTime": "03:41",
     "endTime": "03:54"
   },
@@ -125,22 +125,22 @@ export const transcriptionDaniel = [
     "endTime": "04:40"
   },
   {
-    "text": "Eu diria que a grande dificuldade que hoje um atleta sofre no nosso país é o início da sua carreira,",
+    "text": "Eu diria que a grande dificuldade que hoje um atleta ele sofre no nosso país é o início da sua carreira,",
     "startTime": "04:40",
     "endTime": "04:49"
   },
   {
-    "text": "então comigo realmente uma das principais dificuldades no processo, foi o início da carreira de você, a falta de incentivo, a falta de patrocínios,",
+    "text": "então comigo realmente uma das principais dificuldades no processo, foi o início da carreira de, você, a falta de incentivo, a falta de patrocínios,",
     "startTime": "04:49",
     "endTime": "05:00"
   },
   {
-    "text": "e a gente se virava como podia, né? Brinco que eu tinha o pai-trocínio, e o pessoal que está aqui nos acompanhando, que foi atleta aí um dia, ou que tentou ser,",
+    "text": "e a gente se virava como podia, né? Brinco que eu tinha o paitrocínio, e o pessoal que está aqui nos acompanhando, que foi atleta aí um dia, ou que tentou ser,",
     "startTime": "05:00",
     "endTime": "05:11"
   },
   {
-    "text": "sabe do que eu estou falando, né? Nessa questão de ter um pai-trocínio, os pais que acabam bancando da maneira que podem, como podem, então meus pais fizeram todo o esforço aí, por isso que eu sempre digo do incentivo deles,",
+    "text": "sabe do que eu estou falando, né? Nessa questão de ter um paitrocínio, os pais que acabam bancando da maneira que podem, como podem, então meus pais fizeram todo o esforço aí, por isso que eu sempre digo do incentivo deles,",
     "startTime": "05:11",
     "endTime": "05:23"
   },
@@ -170,7 +170,7 @@ export const transcriptionDaniel = [
     "endTime": "06:16"
   },
   {
-    "text": "Nesse processo de escola ali, criança, que eu fui entendendo a questão da minha deficiência, da má formação, e pude ir entendendo que, pô, nós somos diferentes,",
+    "text": "Nesse processo de escola, ali, criança, que eu fui entendendo a questão da minha deficiência, da má formação, e pude ir entendendo que, pô, nós somos diferentes,",
     "startTime": "06:16",
     "endTime": "06:27"
   },
@@ -195,7 +195,7 @@ export const transcriptionDaniel = [
     "endTime": "07:11"
   },
   {
-    "text": "respeitar as diferenças e entender que somos iguais nas capacidades de realizar os sonhos e objetivos. É isso aí. Apesar, né, que muita gente, infelizmente, não age nem pensa dessa forma. O Paradesporto te escolheu ou não? Ou você já tinha ele em mente?",
+    "text": "respeitar as diferenças e entender que somos iguais nas capacidades de realizar os sonhos e objetivos. É isso aí. Apesar, né, que muita gente, infelizmente, não age nem pensa dessa forma. O paradesporto te escolheu ou você já tinha ele em mente?",
     "startTime": "07:11",
     "endTime": "07:23"
   },
@@ -215,12 +215,12 @@ export const transcriptionDaniel = [
     "endTime": "07:52"
   },
   {
-    "text": "como eu já disse, né, então, realmente, a natação, ela me escolheu, mas eu digo que, acima de tudo, Deus já sabia de todas as coisas e me proporcionou conhecer a natação, aprender a nadar e ter todas essas conquistas.",
+    "text": "como eu já disse, né, então, realmente, a natação ela me escolheu, mas eu digo que, acima de tudo, Deus já sabia de todas as coisas e me proporcionou conhecer a natação, aprender a nadar e ter todas essas conquistas.",
     "startTime": "07:52",
     "endTime": "08:04"
   },
   {
-    "text": "É, gente, não tem jeito, então. A natação é dele e ele é da natação. Falando agora sobre conquistas e reconhecimento, qual que é a importância para você em ser o único brasileiro a vencer o prêmio Laureus do Esporte Mundial?",
+    "text": "É, gente, não tem jeito, então. A natação é dele e ele é da natação. Falando agora sobre conquistas e reconhecimento, qual que é a importância para você em ser o único brasileiro a vencer o Prêmio Laureus do esporte mundial?",
     "startTime": "08:04",
     "endTime": "08:16"
   },
@@ -230,7 +230,7 @@ export const transcriptionDaniel = [
     "endTime": "08:28"
   },
   {
-    "text": "e você ter três estatuetas dessas, né, esse prêmio Laureus, o Oscar do Esporte, ser o único brasileiro a conquistar por três vezes é algo memorável,",
+    "text": "e você ter três estatuetas dessas, né, esse Prêmio Laureus, o Oscar do Esporte, ser o único brasileiro a conquistar por três vezes é algo memorável,",
     "startTime": "08:28",
     "endTime": "08:38"
   },
@@ -240,7 +240,7 @@ export const transcriptionDaniel = [
     "endTime": "08:51"
   },
   {
-    "text": "Viver tudo aquilo, primeira vez que eu conheci o prêmio foi em 2008, pelos feitos de 2007, né, do Parapã do Rio. Ali eu falei, poxa, um dia eu quero ganhar esse prêmio.",
+    "text": "Viver tudo aquilo, primeira vez que eu conheci o Prêmio foi em 2008, pelos feitos de 2007, né, do Parapan do Rio. Ali, eu falei, poxa, um dia eu quero ganhar esse Prêmio.",
     "startTime": "08:51",
     "endTime": "09:02"
   },
@@ -255,17 +255,17 @@ export const transcriptionDaniel = [
     "endTime": "09:24"
   },
   {
-    "text": "Inclusive, esse prêmio, para quem está ouvindo a gente aqui e não sabe, ele acontece todos os anos e envolve os maiores destaques do ano anterior. E, Daniel, continuando o papo sobre prêmios individuais,",
+    "text": "Inclusive, esse Prêmio, para quem está ouvindo a gente aqui e não sabe, ele acontece todos os anos e envolve os maiores destaques do ano anterior. E, Daniel, continuando o papo sobre prêmios individuais,",
     "startTime": "09:24",
     "endTime": "09:34"
   },
   {
-    "text": "você é recordista de medalhas em uma única edição dos Jogos Paralímpicos, lá em Pequim. Qual que é o tamanho desse feito para você e para a história do Paradesport? É, realmente, né, imaginar, assim, na primeira Paralimpíada,",
+    "text": "você é recordista de medalhas em uma única edição dos Jogos Paralímpicos, lá em Pequim. Qual que é o tamanho desse feito para você e para a história do paradesporto? É, realmente, né, imaginar, assim, na primeira Paralimpíada,",
     "startTime": "09:34",
     "endTime": "09:45"
   },
   {
-    "text": "assistir a Atenas pela TV, 2008 estava presente, aí você ganha nove medalhas, né, e foi sensacional, né, minha primeira medalha, ela sai ali no dia 7 de setembro,",
+    "text": "assistir Atenas pela TV, 2008 estava presente, aí você ganha nove medalhas, né, e foi sensacional, né, minha primeira medalha, ela sai ali no dia 7 de setembro,",
     "startTime": "09:45",
     "endTime": "09:56"
   },
@@ -280,12 +280,12 @@ export const transcriptionDaniel = [
     "endTime": "10:16"
   },
   {
-    "text": "não tem como colocar um tamanho nisso, mas eu sempre digo, foi ali, mas, de repente, começa a minha história em Paralimpíada para que um dia eu pudesse me tornar o maior medalhista paralímpico masculino da história.",
+    "text": "não tem como colocar um tamanho nisso, mas eu sempre digo, foi ali onde começa a minha história em Paralimpíada para que um dia eu pudesse me tornar o maior medalhista paralímpico masculino da história.",
     "startTime": "10:16",
     "endTime": "10:27"
   },
   {
-    "text": "Aqui na RP, como a gente fala muito sobre história de vida, conta para o pessoal a sua história mais marcante, como o Daniel Dias, seja pessoa física ou mesmo atleta.",
+    "text": "Aqui no RP, como a gente fala muito sobre história de vida, conta para o pessoal a sua história mais marcante, como Daniel Dias, seja pessoa física ou mesmo atleta.",
     "startTime": "10:27",
     "endTime": "10:35"
   },
@@ -300,7 +300,7 @@ export const transcriptionDaniel = [
     "endTime": "10:50"
   },
   {
-    "text": "Até quatro momentos, então, quando eu me caso e quando nascem os meus três filhos, né, então, são momentos marcantes na minha história, porque, assim como eu já falei dos meus pais,",
+    "text": "Diria quatro momentos, então, quando eu me caso e quando nascem os meus três filhos, né, então, são momentos marcantes na minha história, porque, assim como eu já falei dos meus pais,",
     "startTime": "10:51",
     "endTime": "11:02"
   },
@@ -325,7 +325,7 @@ export const transcriptionDaniel = [
     "endTime": "11:47"
   },
   {
-    "text": "Olha só, quando você estava começando, o Clodoaldo Silva, que era o grande nome do esporte. E agora, que você não está mais nas piscinas, quem que você enxerga como seu possível sucessor?",
+    "text": "Olha só, quando você estava começando, o Clodoaldo Silva que era o grande nome do esporte. E agora, que você não está mais nas piscinas, quem que você enxerga como seu possível sucessor?",
     "startTime": "11:47",
     "endTime": "11:58"
   },
@@ -345,12 +345,12 @@ export const transcriptionDaniel = [
     "endTime": "12:31"
   },
   {
-    "text": "no esporte paralímpico, e ter a Carol, a gente tem o Gabrielzinho, a gente tem o Samuca, a gente tem o Talisson, a gente tem grandes nomes no feminino ainda falando, a Cecília, a Mari,",
+    "text": "no esporte paralímpico, e ter a Carol, a gente tem o Gabrielzinho, a gente tem o Samuca, a gente tem o Talisson, a gente tem grandes nomes, no feminino ainda falando, a Cecília, a Mari,",
     "startTime": "12:31",
     "endTime": "12:42"
   },
   {
-    "text": "são pessoas que destacaram aí, atletas que se destacaram nesse último campeonato mundial, então, assim, não diria um nome, porque a gente está com bons nomes,",
+    "text": "são pessoas que destacaram aí, atletas que se destacaram nesse último Campeonato Mundial, então, assim, não diria um nome, porque a gente está com bons nomes,",
     "startTime": "12:42",
     "endTime": "12:52"
   },
@@ -365,17 +365,17 @@ export const transcriptionDaniel = [
     "endTime": "13:17"
   },
   {
-    "text": "viu? Quais são os seus planos atuais? A gente tem muitos planos, projetos, mas o principal deles é o meu instituto, o Instituto Daniel Dias, onde a gente usa o esporte como ferramenta, de tudo que eu falei,",
+    "text": "viu? Quais são os seus planos atuais? A gente tem muitos planos, projetos, mas o principal deles é o meu Instituto, o Instituto Daniel Dias, onde a gente usa o esporte como ferramenta, de tudo que eu falei,",
     "startTime": "13:17",
     "endTime": "13:30"
   },
   {
-    "text": "o esporte transformou minha vida, e hoje retribui um pouco do que o esporte deu, então, é que crianças com deficiência possam praticar a natação, possam fazer a natação,",
+    "text": "o esporte transformou minha vida, e hoje, retribuir um pouco do que o esporte deu, então, que crianças com deficiência possam praticar a natação, possam fazer a natação,",
     "startTime": "13:30",
     "endTime": "13:41"
   },
   {
-    "text": "entender tudo que eu falei aqui, que nós podemos ser campeões na vida, é uma oportunidade que elas estão... pedindo, que elas precisam, e a gente quer, através do projeto do Instituto Daniel Dias,",
+    "text": "entender tudo que eu falei aqui, que nós podemos ser campeões na vida, é uma oportunidade que elas estão pedindo, que elas precisam, e a gente quer, através do projeto do Instituto Daniel Dias,",
     "startTime": "13:41",
     "endTime": "13:54"
   },
@@ -410,7 +410,7 @@ export const transcriptionDaniel = [
     "endTime": "15:03"
   },
   {
-    "text": "RP Podcast O seu programa de relatos paralímpicos. O seu programa de relatos paralímpicos.",
+    "text": "RP Podcast, o seu programa de relatos paralímpicos.",
     "startTime": "15:06",
     "endTime": "15:16"
   }

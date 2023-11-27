@@ -1,11 +1,11 @@
 export const transcriptionArthur = [
   {
-    "text": "R.P. Podcast, o seu programa de relatos paralímpicos.",
+    "text": "RP Podcast, o seu programa de relatos paralímpicos.",
     "startTime": "00:02",
     "endTime": "00:08"
   },
   {
-    "text": "Meu nome é Laís Gonela e te apresento mais um episódio do R.P. Estamos hoje com Arthur Dias, promessa brasileira do badminton paralímpico,",
+    "text": "Meu nome é Laís Gonella e te apresento mais um episódio do RP. Estamos hoje com Arthur Dias, promessa brasileira do badminton paralímpico,",
     "startTime": "00:13",
     "endTime": "00:23"
   },
@@ -25,17 +25,17 @@ export const transcriptionArthur = [
     "endTime": "00:59"
   },
   {
-    "text": "Quem que é o Arthur, seus sonhos, objetivos? E por falar em sonhos, como que iniciou esse sonho de virar um atleta profissional de para badminton?",
+    "text": "Quem que é o Arthur, seus sonhos, objetivos? E por falar em sonhos, como que iniciou esse sonho de virar um atleta profissional de parabadminton?",
     "startTime": "00:59",
     "endTime": "01:08"
   },
   {
-    "text": "Então, minha história começou quando eu tinha 13 anos, pelo menos do Paralímpico, que foi quando eu tive minha lesão, que foi jogando futebol na minha escola. Aí eu comecei a fazer fisioterapia.",
+    "text": "Então, minha história começou quando eu tinha 13 anos, pelo menos do paralímpico, que foi quando eu tive minha lesão, que foi jogando futebol na minha escola. Aí eu comecei a fazer fisioterapia.",
     "startTime": "01:08",
     "endTime": "01:21"
   },
   {
-    "text": "Lá na fisioterapia me indicaram o comitê. Aí do comitê eu já fui... O primeiro esporte que fui... Foi o para badminton. Aí eu já me identifiquei. Aí comecei no para badminton.",
+    "text": "Lá na fisioterapia me indicaram o comitê. Aí do comitê eu já fui... O primeiro esporte que fui... Foi o parabadminton. Aí eu já me identifiquei. Aí comecei no parabadminton.",
     "startTime": "01:21",
     "endTime": "01:33"
   },
@@ -45,7 +45,7 @@ export const transcriptionArthur = [
     "endTime": "01:44"
   },
   {
-    "text": "Aquela sensação ficou na minha mente por um ano, um ano. Remoendo aquela derrota. Aí foi. O que mais me inspirou foi ter perdido aquela partida. Inclusive, você estava falando aqui. Eu lembro que você estava falando que você estava fazendo um treinamento. Eu lembrei.",
+    "text": "Aquela sensação ficou na minha mente por um ano, um ano. Remoendo aquela derrota. Aí foi. O que mais me inspirou foi ter perdido aquela partida. Inclusive, você estava falando aqui. Eu lembrei,",
     "startTime": "01:45",
     "endTime": "01:57"
   },
@@ -60,7 +60,7 @@ export const transcriptionArthur = [
     "endTime": "02:18"
   },
   {
-    "text": "Nível muito superior para a primeira vez, assim. Por mais que a gente tenha treinado, foi uma semana só e não foi focado. Em duplo.",
+    "text": "Nível muito superior para a primeira vez, assim. Por mais que a gente tenha treinado, foi uma semana só e não foi focado em dupla.",
     "startTime": "02:19",
     "endTime": "02:28"
   },
@@ -90,12 +90,12 @@ export const transcriptionArthur = [
     "endTime": "03:26"
   },
   {
-    "text": "que você é um cara muito ligado a pessoas, certo? Qual que é a importância que os seus técnicos, André Ocassiano e André Yamashita, têm no desenvolvimento do seu trabalho como para-atleta e também como pessoa?",
+    "text": "que você é um cara muito ligado a pessoas, certo? Qual que é a importância que os seus técnicos, Andrew Cassiano e André Yamashita, têm no desenvolvimento do seu trabalho como paratleta e também como pessoa?",
     "startTime": "03:26",
     "endTime": "03:38"
   },
   {
-    "text": "Vixe, se não fosse o André, eu meia ser um terço do que eu sou hoje. Como atleta e como pessoa. Ele que me incentivou que eu entrei no meio da pandemia.",
+    "text": "Vixe, se não fosse o Andrew, eu não ia ser um terço do que eu sou hoje. Como atleta e como pessoa. Ele que me incentivou que eu entrei no meio da pandemia.",
     "startTime": "03:39",
     "endTime": "03:50"
   },
@@ -105,7 +105,7 @@ export const transcriptionArthur = [
     "endTime": "04:01"
   },
   {
-    "text": "E ia fazer um negócio muito aleatório. Que ia ser um curso de TI e trabalhar com isso. E ele falando, ligando para minha mãe, falando Não, manda ele treinar, manda ele treinar.",
+    "text": "E ia fazer um negócio muito aleatório. Que ia ser um curso de TI e trabalhar com isso. E ele falando, ligando para minha mãe, falando não, manda ele treinar, manda ele treinar.",
     "startTime": "04:01",
     "endTime": "04:13"
   },
@@ -120,7 +120,7 @@ export const transcriptionArthur = [
     "endTime": "04:35"
   },
   {
-    "text": "Ele confiava tanto em mim que no primeiro mês de treino ele me deu a raquete que ele jogava. Que ele jogava, ele foi atleta. Aí ele me deu a raquete dele.",
+    "text": "Ele confiava tanto em mim que no primeiro mês de treino, ele me deu a raquete que ele jogava. Que ele jogava, ele foi atleta. Aí ele me deu a raquete dele.",
     "startTime": "04:36",
     "endTime": "04:47"
   },
@@ -135,7 +135,7 @@ export const transcriptionArthur = [
     "endTime": "05:12"
   },
   {
-    "text": "Sobre a Sankalp, que para quem nos ouve é um programa esportivo social nas modalidades badminton e para badminton em Campinas. Qual que é a importância no seu desenvolvimento como um para-atleta?",
+    "text": "Sobre a Sankalp, que para quem nos ouve é um programa esportivo social nas modalidades badminton e parabadminton em Campinas. Qual que é a importância no seu desenvolvimento como um paratleta?",
     "startTime": "05:13",
     "endTime": "05:23"
   },
@@ -150,17 +150,17 @@ export const transcriptionArthur = [
     "endTime": "05:48"
   },
   {
-    "text": "E Arthur, diz para a gente. Qual é o seu grande sonho na carreira profissional? Ah, meu sonho é ser o melhor do mundo. Eu imagino uma quadra assim.",
+    "text": "E Arthur, diz para a gente. Qual é o seu grande sonho na carreira profissional? Ah, meu sonho é ser o melhor do mundo. Eu imagino uma quadra assim,",
     "startTime": "05:49",
     "endTime": "05:59"
   },
   {
-    "text": "Placar 21-20. Aí a peteca cai para fora. E ponto meu. Nossa, esse que é o meu sonho. Ser o melhor do mundo.",
+    "text": "placar 21-20. Aí a peteca cai para fora. E ponto meu. Nossa, esse que é o meu sonho. Ser o melhor do mundo.",
     "startTime": "05:59",
     "endTime": "06:11"
   },
   {
-    "text": "Em uma final, assim, internacional. Ou até de uma para-olimpíadas, quem sabe. Você tem tudo para isso. Que a gente possa te ver em breve brilhando nas telinhas. Representando o Brasil mundo afora.",
+    "text": "Em uma final, assim, internacional. Ou até de uma Paralimpíadas, quem sabe. Você tem tudo para isso. Que a gente possa te ver em breve brilhando nas telinhas. Representando o Brasil mundo afora.",
     "startTime": "06:11",
     "endTime": "06:24"
   },
@@ -180,7 +180,7 @@ export const transcriptionArthur = [
     "endTime": "07:01"
   },
   {
-    "text": "Depois ela falou, não, você vai ter que aprender isso sozinha. Para você ganhar autonomia. Ela que prepara tudo fora da quadra. Tipo, meu psicológico está ruim.",
+    "text": "Depois ela falou, não, você vai ter que aprender isso sozinho. Para você ganhar autonomia. Ela que prepara tudo fora da quadra. Tipo, meu psicológico está ruim.",
     "startTime": "07:01",
     "endTime": "07:14"
   },
@@ -190,12 +190,12 @@ export const transcriptionArthur = [
     "endTime": "07:26"
   },
   {
-    "text": "Ela divulga todas as minhas redes sociais. Fala para a pessoa e vê. Compartilha tudo. De alimentação também. Ela pesquisa o que é bom. Carboidrato.",
+    "text": "Ela divulga todas as minhas redes sociais. Fala para a pessoa e vê. Compartilha tudo. De alimentação também, ela pesquisa o que é bom. Carboidrato,",
     "startTime": "07:26",
     "endTime": "07:36"
   },
   {
-    "text": "Antes do jogo, proteína para ganhar massa. Tudo é ela. Ai, que fofa. Mãe sendo mãe, né? Querendo fazer parte de cada momento da vida do filho.",
+    "text": "antes do jogo, proteína para ganhar massa. Tudo é ela. Ai, que fofa. Mãe sendo mãe, né? Querendo fazer parte de cada momento da vida do filho.",
     "startTime": "07:37",
     "endTime": "07:47"
   },

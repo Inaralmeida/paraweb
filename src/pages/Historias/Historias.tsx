@@ -91,12 +91,13 @@ const Historias = () => {
             <div className="podcast">
               <ReactAudioPlayer
                 title="podcast"
-                listenInterval={500}
+                listenInterval={100}
                 className="player"
                 src={contentPage.linkPodcast}
                 style={{ width: "100%" }}
                 controls
                 onListen={(e) => setTimeCurrent(e)}
+
               />
               <Transcription
                 currentTime={timeCurrent}
