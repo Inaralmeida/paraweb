@@ -33,7 +33,7 @@ const Apoio = () => {
               size={isMobile || isTablet ? 200 : 350}
             />
             <NameAuthor
-              data={`Jogador de Futebol `}
+              data={`Jogador de Futebol de amputados`}
               name={"Rogério Rodrigues de Almeida "}
             />
           </div>

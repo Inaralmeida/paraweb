@@ -73,6 +73,12 @@ export const StylesApoio = styled.main`
       text-align: center;
     }
     
+    >picture{
+      > img{
+        width: 80%;
+        height: 100%;
+      }
+     }
     }
   }
 `;
