@@ -5,60 +5,57 @@ export const StylesRepresentatividade = styled.main`
   display: flex;
   align-items: center;
   flex-direction: column;
-
-  > ul {
-    display: flex;
-    width: 100%;
-  }
+  max-width: 1200px;
+  padding: 24px 50px;
+  margin: 0 auto;
 
   > section {
     width: 100%;
-    padding: 24px 50px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
 
-    &.intro {
-      max-width: 1120px;
-      flex-direction: column;
-      text-align: center;
-      gap: 24px;
-    }
-
-    > .destaque, .data-interviewed{
-      display: flex;
-      flex-direction: column;
-      gap: 24px;
-    }
-
-    > h3 {
-      width: 48%;
-      max-width: 350px;
-    }
-
-    > .materia {
-      column-count: 3;
-      column-width: 48%;
-      column-gap: 24px;
-      margin-bottom: 24px;
-    }
-
-    @media screen and (max-width: 623px) {
+    
+    > .destaque{
+      width: 80%;
       display: flex;
       flex-direction: column;
       align-items: center;
-      gap: 48px;
-      justify-content: space-evenly;
-
-      > h3 {
-        width: 100%;
-      }
-
-      > .materia {
-        column-count: 1;
-        column-width: 98%;
-        margin-bottom: 24px;
-      }
+      gap: 24px;
+      text-align: center;
+      margin: 0 auto;
     }
+
+    &.textContent{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 12px;
+      padding: 24px 0;
+    }
+    > .text {
+     > span{
+      font-weight: 600;
+     }
+    }
+
+  
+
+    
   }
+  @media screen and (max-width: 623px) {
+      padding: 12px;
+
+      > .destaque > .title-destaque{
+  
+        text-align: center;
+      
+    }
+
+      &.textContent{
+    
+      padding: 12px;
+      text-align: center;
+    }
+    
+    }
 `;
