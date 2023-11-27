@@ -99,4 +99,9 @@ export const GlobalStyle = createGlobalStyle`
     line-height: normal;
     text-transform: uppercase;
   }
+
+  legend{
+    font-size: 12px;
+    font-weight: 100;
+  }
 `;
