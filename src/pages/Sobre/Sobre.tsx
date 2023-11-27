@@ -5,14 +5,17 @@ import { miniBioData } from "../../core/MiniBio";
 const Sobre = () => {
   
   return <StylesSobre>
-    {miniBioData.map((bio) => (
+    {miniBioData.map((bio, i) => (
       <MiniBio
+      key={i}
         name={bio.name}
         age={bio.age}
         photo={bio.photo}
         text={bio.text}
-        email={bio.email}
+        linkedin={bio.linkedin}
+        insta={bio.insta}
         alt={bio.alt}
+        email={bio.email}
       />
     ))}
   </StylesSobre>;
