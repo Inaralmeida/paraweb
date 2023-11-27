@@ -4,13 +4,13 @@ export const miniBioData = [
   photo:'/bios/giovanni.jpeg',
   alt:'Na imagem apresenta o Giovanni Viana Panatto, integrante do site Paraweb. Posicionado de frente para a câmera vestindo uma blusa preta, e no fundo uma parede branca.',
   email:'giovanniface16@gmail.com',
-  text:'Desde pequeno sou apaixonado por esportes, decidi fazer Jornalismo para me envolver ainda mais neste meio.'
+  text:'Desde pequeno sou apaixonado por esportes, decidi fazer Jornalismo para me envolver ainda mais neste meio. Atualmente estou estagiando na Radio dentro da Universidade Anhembi Morumbi, na qual trabalho na equipe que comanda o estúdio que reproduz música para a faculdade toda. Além disso, atuo também na equipe de cinema, produzindo listas sobre filme todas as semanas. Amo futebol e praticar qualquer tipo de esporte é um dos meus hobbies favorito'
 },
 { name:'Laís Gonella Solteiro',
   age:'21',
   photo:'/bios/lais.jpeg',
   alt:'Na imagem está a Laís Gonella Solteiro, uma das integrantes do site Paraweb. Posicionada de lado em um fundo branco, ela veste camisa social preta e calça jeans. Seus braços estão cruzados e seu cabelo ondulado.',
-  email:'aisgonella29@outlook.com',
+  email:'laisgonella29@outlook.com',
   text:'Meu primeiro estágio foi na Rádio Bandeirantes, onde entrei cuidando das redes sociais e saí como produtora de programa. Atualmente trabalho em uma agência de publicidade, em Moema (SP). Entrei para o Jornalismo com a intenção de orientar, contar histórias e formar opiniões. Busco estar sempre aprendendo para saber sobre os assuntos mais variados.Como uma boa viajante, adoro conhecer novos lugares e escrever sobre eles. Ouvir uma música e assistir séries também fazem parte de mim.'
 },
 { name:' Rebeca Barreto da Silva',

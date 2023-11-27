@@ -3,7 +3,7 @@ import NameAuthor from "../../components/NameAuthor/NameAuthor";
 import { StylesTech } from "./tecnologia.styles";
 
 const Tecnologia = () => {
-  return (
+  return ( 
     <div>
       <Banner title="Tecnologia" image="/tech.jpg" />
       <StylesTech>
@@ -14,8 +14,8 @@ const Tecnologia = () => {
               FUNCIONA A FISIOTERAPIA PARA OS MESMOS.
             </h3>
             <NameAuthor
-              data="27 de novembro de 2022"
-              name={`Giovanni V. Panatto`}
+              data="27 de novembro de 2023"
+              name={`Leandro Fazano Cardoso`}
             />
           </div>
         </section>

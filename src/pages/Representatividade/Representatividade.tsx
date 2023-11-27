@@ -20,7 +20,7 @@ const Representatividade = () => {
               paralímpicos
             </h3>
             <NameAuthor
-              data="27 de novembro de 2022"
+              data="27 de novembro de 2023"
               name={`Rebeca Barreto da Silva
               `}
             />

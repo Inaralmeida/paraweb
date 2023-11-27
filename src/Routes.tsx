@@ -9,6 +9,7 @@ import Tecnologia from "./pages/Tecnologia/Tecnologia";
 import Apoio from "./pages/Apoio/Apoio";
 import Sobre from "./pages/Sobre/Sobre";
 import Header from "./components/Header/Header";
+import Footer from "./components/Footer";
 
 const Routes = () => {
   return (
@@ -27,6 +28,7 @@ const Routes = () => {
           <Route path="/apoio/:titulo" element={<Apoio />} />
           <Route path="/sobre" element={<Sobre />} />
         </Switch>
+        <Footer/>
       </ThemeProvider>
     </BrowserRouter>
   );
