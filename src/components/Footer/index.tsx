@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <StyleFooter>
       <p>
-       <a href="">Inara Almeida</a> 2023 &copy; Projeto feito para fins Educacionais
+       <a href="">Inara Almeida</a> 2023 &copy; Projeto para fins Educacionais
       </p>
     </StyleFooter>
   )
@@ -18,9 +18,15 @@ const StyleFooter = styled.footer`
   align-items: center;
   justify-content: center;
   padding: 12px;
-  background-color: ${({theme}) => theme.blue50};
-
+  border-top: 1px solid #b3dde690;
+  
   > p{
-    
+    color: ${({theme}) => theme.blue500};
+    font-size: 12px;
+    >   a {
+      color: ${({theme}) => theme.blue500};
+      font-size: 12px!important;
+      text-transform: capitalize!important;
+    }
   }
 `
