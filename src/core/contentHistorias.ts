@@ -15,7 +15,7 @@ export const contentHistorias: IContetHistorysProps[] = [
       "Nadador recordista de medalhas paralímpicas pelo Brasil diz que foi dentro da sala de aula que passou a entender sua deficiência, derivada de uma má formação congênita nos membros superiores, na perna direita e no pé esquerdo",
     phraseImpact: "A escola nunca foi um tabu, mas um momento desafiador",
     nameAuthor: "Laís Gonella",
-    linkPodcast: "/historias/musica1.ogg",
+    linkPodcast: "/historias/pdcDanielDias.ogg",
     linkTranscription: "/transcriptions/danielDias.ts",
     transcription: transcriptionDaniel,
     publicationDate: "27 de Outubro de 2023",

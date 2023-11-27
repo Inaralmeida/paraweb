@@ -1,31 +1,31 @@
 export const transcriptionVeronica = [
   {
-    "text": "R.P. Podcast, o seu programa de relatos paralímpicos.",
+    "text": "RP Podcast, o seu programa de relatos Paralímpicos.",
     "startTime": "00:02",
     "endTime": "00:08"
   },
   {
-    "text": "Meu nome é Laís Gonela e te apresento mais um episódio do R.P.",
+    "text": "Meu nome é Laís Gonella e te apresento mais um episódio do RP",
     "startTime": "00:13",
     "endTime": "00:18"
   },
   {
-    "text": "Estamos hoje com Verônica Hipólito, velocista brasileira, medalhista para a Panamericana e Paralímpica",
+    "text": "Estamos hoje com Verônica Hipólito, velocista brasileira, medalhista para a Parapan-americana e paralímpica",
     "startTime": "00:18",
     "endTime": "00:25"
   },
   {
-    "text": "e um dos grandes nomes do atletismo paralímpico.",
+    "text": "e um dos grandes nomes do atletismo Paralímpico.",
     "startTime": "00:25",
     "endTime": "00:28"
   },
   {
-    "text": "Você está onde os relatos paralímpicos valem ouro.",
+    "text": "Você está onde os relatos Paralímpicos valem ouro.",
     "startTime": "00:28",
     "endTime": "00:32"
   },
   {
-    "text": "Oi Verônica, tudo bem? É um prazer ter você aqui compartilhando com a gente os seus relatos paralímpicos.",
+    "text": "Oi Verônica, tudo bem? É um prazer ter você aqui compartilhando com a gente os seus relatos Paralímpicos.",
     "startTime": "00:32",
     "endTime": "00:38"
   },
@@ -50,7 +50,7 @@ export const transcriptionVeronica = [
     "endTime": "00:58"
   },
   {
-    "text": "que acabou te levando para o Paradesporto.",
+    "text": "que acabou te levando para o paradesporto.",
     "startTime": "00:58",
     "endTime": "01:00"
   },
@@ -75,22 +75,22 @@ export const transcriptionVeronica = [
     "endTime": "01:22"
   },
   {
-    "text": "Pelo contrário, eu sempre falo que na natação, por exemplo, a minha mãe chegou a Pará,",
+    "text": "Pelo contrário, eu sempre falo que na natação, por exemplo, a minha mãe chegou a parar,",
     "startTime": "01:23",
     "endTime": "01:27"
   },
   {
-    "text": "estava em uma competição, achando que eu estava me afogando, mas na verdade eu estava fazendo o nado cachorrinho, sabe?",
+    "text": "uma competição, achando que eu estava me afogando, mas na verdade eu estava fazendo o nado cachorrinho, sabe?",
     "startTime": "01:27",
     "endTime": "01:34"
   },
   {
-    "text": "Eu acabei me encontrando no judô, na adolescência, da primeira e da segunda infância para a adolescência,",
+    "text": "Eu acabei me encontrando no judô, na adolescência, da segunda infância para a adolescência,",
     "startTime": "01:34",
     "endTime": "01:40"
   },
   {
-    "text": "e aí eu tive um tumor na cabeça, retirei o tumor, claro que não foi assim, então tranquilo, mas retirei o tumor.",
+    "text": "e aí eu tive um tumor na cabeça, retirei o tumor, claro que não foi assim, tão tranquilo, mas retirei o tumor.",
     "startTime": "01:41",
     "endTime": "01:49"
   },
@@ -130,7 +130,7 @@ export const transcriptionVeronica = [
     "endTime": "02:27"
   },
   {
-    "text": "Eu perguntei para o professor quando eu poderia fazer isso, ele disse que seria quando eu tivesse dos meus 15 anos,",
+    "text": "para o professor quando eu poderia fazer isso, ele disse que seria quando eu tivesse dos meus 15 anos,",
     "startTime": "02:27",
     "endTime": "02:34"
   },
@@ -175,7 +175,7 @@ export const transcriptionVeronica = [
     "endTime": "03:27"
   },
   {
-    "text": "Olímpico e Paralímpico, ele me apresentou o Paradesporto, ou o esporte paralímpico, né,",
+    "text": "Olímpico e Paralímpico, ele me apresentou o paradesporto, ou o esporte Paralímpico, né,",
     "startTime": "03:27",
     "endTime": "03:33"
   },
@@ -185,7 +185,7 @@ export const transcriptionVeronica = [
     "endTime": "03:39"
   },
   {
-    "text": "Inclusive eu estava com esse tema na ponta da língua, ia te perguntar agora sobre como tinham sido para ti essas transições entre os esportes.",
+    "text": "Inclusive eu estava com esse tema na ponta da língua, ia te perguntar agora sobre como tinha sido para ti essas transições entre os esportes.",
     "startTime": "03:39",
     "endTime": "03:46"
   },
@@ -195,14 +195,13 @@ export const transcriptionVeronica = [
     "endTime": "03:49"
   },
   {
-    "text": "Dentro do próprio Paradesporto, você teve que passar por adaptações e mudanças de categoria.",
+    "text": "Dentro do próprio paradesporto, você teve que passar por adaptações e mudanças de categoria.",
     "startTime": "03:50",
     "endTime": "03:54"
   },
-  { "text": "Como isso funciona?", "startTime": "03:55", "endTime": "03:56" },
-  { "text": "Como isso funciona?", "startTime": "03:56", "endTime": "03:57" },
+  { "text": "Como isso funciona?", "startTime": "03:55", "endTime": "03:57" },
   {
-    "text": "E quais os problemas enfrentados?",
+    "text": "E quais foram os problemas enfrentados?",
     "startTime": "03:57",
     "endTime": "03:58"
   },
@@ -217,7 +216,7 @@ export const transcriptionVeronica = [
     "endTime": "04:13"
   },
   {
-    "text": "No total, eu passei por três cirurgias na cabeça, uma antes do movimento paralímpico e duas depois.",
+    "text": "No total, eu passei por três cirurgias na cabeça, uma antes do Movimento Paralímpico e duas depois.",
     "startTime": "04:13",
     "endTime": "04:21"
   },
@@ -227,13 +226,13 @@ export const transcriptionVeronica = [
     "endTime": "04:26"
   },
   {
-    "text": "por conta de mais de 200 tumores nele, e também passei por radioterapia e radioscirurgia durante o processo.",
+    "text": "por conta de mais de 200 tumores nele, e também passei por radioterapia e radiocirurgia durante o processo.",
     "startTime": "04:27",
     "endTime": "04:33"
   },
   { "text": "Maluco demais, né?", "startTime": "04:34", "endTime": "04:35" },
   {
-    "text": "E dentro do paralímpico, existe uma coisa chamada classificação.",
+    "text": "E dentro do Paralímpico, existe uma coisa chamada classificação.",
     "startTime": "04:36",
     "endTime": "04:41"
   },
@@ -248,7 +247,7 @@ export const transcriptionVeronica = [
     "endTime": "04:56"
   },
   {
-    "text": "Igual existe no movimento olímpico.",
+    "text": "Igual existe no Movimento Olímpico.",
     "startTime": "04:57",
     "endTime": "04:59"
   },
@@ -258,7 +257,7 @@ export const transcriptionVeronica = [
     "endTime": "05:08"
   },
   {
-    "text": "E no paralímpico, existe tudo isso e existe ainda a funcionalidade, ou seja,",
+    "text": "E no Paralímpico, existe tudo isso e existe ainda a funcionalidade, ou seja,",
     "startTime": "05:08",
     "endTime": "05:13"
   },
@@ -364,7 +363,7 @@ export const transcriptionVeronica = [
     "endTime": "06:39"
   },
   {
-    "text": "Olha, eu vou te falar que a cirurgia de 2017, 2018, junto com a radioterapia e a radioscirurgia,",
+    "text": "Olha, eu vou te falar que a cirurgia de 2017, 2018, junto com a radioterapia e a radiocirurgia,",
     "startTime": "06:40",
     "endTime": "06:49"
   },
@@ -399,7 +398,7 @@ export const transcriptionVeronica = [
     "endTime": "07:13"
   },
   {
-    "text": "Mas, claramente, a cirurgia de 2017, 2018, a radioterapia e a radioscirurgia de 2021 até 2022, para mim,",
+    "text": "Mas, claramente, a cirurgia de 2017, 2018, a radioterapia e a radiocirurgia de 2021 até 2022, para mim,",
     "startTime": "07:14",
     "endTime": "07:24"
   },
@@ -434,16 +433,15 @@ export const transcriptionVeronica = [
     "endTime": "07:51"
   },
   {
-    "text": "já impacta absurdamente no esporte.",
+    "text": "já impacta absurdamente .",
     "startTime": "07:51",
     "endTime": "07:54"
   },
   {
-    "text": "Então, eu não ia conseguir performar.",
+    "text": "No esporte, então, eu não ia conseguir performar.",
     "startTime": "07:54",
-    "endTime": "07:56"
+    "endTime": "07:57"
   },
-  { "text": "Era tudo ruim.", "startTime": "07:56", "endTime": "07:57" },
   {
     "text": "Era tudo muito complicado.",
     "startTime": "07:57",
@@ -543,17 +541,17 @@ export const transcriptionVeronica = [
     "endTime": "09:30"
   },
   {
-    "text": "Eu ia, sei lá, eu não ia ter conquistado a prata e o bronze paralímpico, nem as sete",
+    "text": "Eu ia, sei lá, eu não ia ter conquistado a prata e o bronze Paralímpico, nem as sete",
     "startTime": "09:31",
     "endTime": "09:38"
   },
   {
-    "text": "medalhas para pan-americanos, nem o campeonato mundial, provavelmente eu não estaria aqui,",
+    "text": "medalhas Parapan-americanos, nem o campeonato mundial, provavelmente eu não estaria aqui,",
     "startTime": "09:38",
     "endTime": "09:43"
   },
   {
-    "text": "porque eu não teria acreditado que valeria a pena viver o que eu conseguiria viver.",
+    "text": "porque eu não teria acreditado que valeria a pena viver ou que eu conseguiria viver.",
     "startTime": "09:43",
     "endTime": "09:48"
   },
@@ -563,7 +561,7 @@ export const transcriptionVeronica = [
     "endTime": "09:55"
   },
   {
-    "text": "Como atleta, e claramente, foram essenciais, e são essenciais no meu desenvolvimento",
+    "text": "Como atleta, e claramente, foram essenciais, e são essenciais no meu desenvolvimento como atleta",
     "startTime": "09:55",
     "endTime": "10:04"
   },
@@ -573,7 +571,7 @@ export const transcriptionVeronica = [
     "endTime": "10:06"
   },
   {
-    "text": "Você tem dois grandes projetos na sua vida, o time Nauru e o Instituto Nauru.",
+    "text": "Você tem dois grandes projetos na sua vida, o time Naurú e o Instituto Naurú.",
     "startTime": "10:07",
     "endTime": "10:12"
   },
@@ -584,12 +582,12 @@ export const transcriptionVeronica = [
   },
   { "text": "eles têm.", "startTime": "10:16", "endTime": "10:16" },
   {
-    "text": "O time Nauru e o Instituto Nauru, eu sempre falo que são grandes amores na minha vida.",
+    "text": "O time Naurú e o Instituto Naurú, eu sempre falo que são grandes amores na minha vida.",
     "startTime": "10:17",
     "endTime": "10:22"
   },
   {
-    "text": "Claramente, junto da minha família, junto da minha família, junto da minha família,",
+    "text": "Claramente, junto da minha família,",
     "startTime": "10:23",
     "endTime": "10:25"
   },
@@ -619,12 +617,12 @@ export const transcriptionVeronica = [
     "endTime": "10:46"
   },
   {
-    "text": "E aí, eu via, sempre tinha muitos problemas no esporte, como corrupção, racismo, mas",
+    "text": "E aí, eu via, sempre tinha muitos problemas no esporte, como corrupção, racismo, ",
     "startTime": "10:48",
     "endTime": "10:55"
   },
   {
-    "text": "machismo, misoginia, transfobia, LGBTQIA+, fobia, capacitismo, e o esporte não é isso,",
+    "text": "machismo, misoginia, transfobia, LGBTQIA+fobia, capacitismo, e o esporte não é isso,",
     "startTime": "10:55",
     "endTime": "11:04"
   },
@@ -635,7 +633,7 @@ export const transcriptionVeronica = [
     "endTime": "11:12"
   },
   {
-    "text": "criar o time e o Instituto Nauru.",
+    "text": "criar o time e o Instituto Naurú.",
     "startTime": "11:12",
     "endTime": "11:14"
   },
@@ -666,7 +664,7 @@ export const transcriptionVeronica = [
     "endTime": "11:47"
   },
   {
-    "text": "rendimento do pessoal que já está em mundiais, para a Pan, para a Olimpíadas, para as Olimpíadas,",
+    "text": "rendimento do pessoal que já está em Mundiais, Parapan, Paralimpíadas, Olimpíadas,",
     "startTime": "11:47",
     "endTime": "11:52"
   },
@@ -700,9 +698,9 @@ export const transcriptionVeronica = [
     "startTime": "12:09",
     "endTime": "12:14"
   },
-  { "text": "o tipo do teu corpo.", "startTime": "12:14", "endTime": "12:14" },
+  { "text": "o tipo do teu corpo.", "startTime": "12:14", "endTime": "12:15" },
   {
-    "text": "O esporte é para todas as pessoas, e por isso que a Nauru existe.",
+    "text": "O esporte é para todas as pessoas, e por isso que a Naurú existe.",
     "startTime": "12:15",
     "endTime": "12:18"
   },
@@ -719,13 +717,13 @@ export const transcriptionVeronica = [
   },
   { "text": "Então, fica aberto.", "startTime": "12:28", "endTime": "12:30" },
   {
-    "text": "A gente tem nosso site, nauru.com.br, e redes sociais, time Nauru, Nauru Natação, e Nauru",
+    "text": "A gente tem nosso site, Naurú.com.br, e redes sociais, time Naurú, Naurú Natação, e Naurú",
     "startTime": "12:30",
     "endTime": "12:37"
   },
   { "text": "Atletismo, enfim.", "startTime": "12:37", "endTime": "12:38" },
   {
-    "text": "Foi tudo com muito carinho, com muito amor, e a gente sempre precisa de ajuda, tanto de",
+    "text": "Feito tudo com muito carinho, com muito amor, e a gente sempre precisa de ajuda, tanto de",
     "startTime": "12:39",
     "endTime": "12:44"
   },
@@ -739,7 +737,7 @@ export const transcriptionVeronica = [
     "startTime": "12:48",
     "endTime": "12:50"
   },
-  { "text": "nauru.com.br.", "startTime": "12:50", "endTime": "12:52" },
+  { "text": "Naurú.com.br.", "startTime": "12:50", "endTime": "12:52" },
   {
     "text": "Faça você também a sua parte.",
     "startTime": "12:52",
@@ -776,7 +774,7 @@ export const transcriptionVeronica = [
     "endTime": "13:18"
   },
   {
-    "text": "E claramente, a primeira de todas, é conquistar todos os sonhos.",
+    "text": "E claramente, a primeira de todas, é conquistar todos os campeonatos pela frente.",
     "startTime": "13:18",
     "endTime": "13:22"
   },
@@ -786,12 +784,12 @@ export const transcriptionVeronica = [
     "endTime": "13:30"
   },
   {
-    "text": "ser, eu quero e sonho muito em conquistar mais medalhas em parapano americanos, em bater",
+    "text": "ser, eu quero e sonho muito em conquistar mais medalhas em Parapan-americanos, em bater",
     "startTime": "13:30",
     "endTime": "13:36"
   },
   {
-    "text": "todos os recordes mundiais.",
+    "text": "todos os recordes Mundiais.",
     "startTime": "13:36",
     "endTime": "13:38"
   },
@@ -831,7 +829,7 @@ export const transcriptionVeronica = [
     "endTime": "14:12"
   },
   {
-    "text": "Nauru, o time Nauru, se tornar cada vez maior, e claramente, oferecer, promover o esporte",
+    "text": "Naurú, o time Naurú, se tornar cada vez maior, e claramente, oferecer, promover o esporte",
     "startTime": "14:12",
     "endTime": "14:18"
   },
@@ -841,33 +839,32 @@ export const transcriptionVeronica = [
     "endTime": "14:19"
   },
   {
-    "text": "Que a gente acha muito estadunidense.",
+    "text": "Que a gente ache muitos talentos.",
     "startTime": "14:19",
     "endTime": "14:21"
   },
   {
-    "text": "Que a gente descubra e desenvolva muitas crianças, jovens, adultos, por aí, dentro",
+    "text": "Que a gente descubra e desenvolva muitas crianças, jovens, adultos, por aí, dentro do esporte.",
     "startTime": "14:21",
     "endTime": "14:26"
   },
-  { "text": "do esporte.", "startTime": "14:26", "endTime": "14:26" },
   {
     "text": "Para o altíssimo rendimento e para a vida também.",
     "startTime": "14:26",
     "endTime": "14:29"
   },
   {
-    "text": "E isso, claramente, eu faço muita questão de falar, a Nauru não é a Verônica somente.",
+    "text": "E isso, claramente, eu faço muita questão de falar, a Naurú não é a Verônica somente.",
     "startTime": "14:29",
     "endTime": "14:35"
   },
   {
-    "text": "A Nauru fomos eu, o André Nogueira e o Luiz Cândido, o Luiz Maceió, que se não fossem",
+    "text": "A Naurú fomos eu, o André Nogueira e o Luiz Cândido, o Luiz Maceió, que se não fossem",
     "startTime": "14:35",
     "endTime": "14:42"
   },
   {
-    "text": "por eles, a Nauru não existiria, porque eu não daria conta em nenhum momento.",
+    "text": "por eles, a Naurú não existiria, porque eu não daria conta em nenhum momento.",
     "startTime": "14:42",
     "endTime": "14:47"
   },
@@ -877,7 +874,7 @@ export const transcriptionVeronica = [
     "endTime": "14:51"
   },
   {
-    "text": "Porque esse é o nosso grande sonho, e que a gente consiga ter verba para isso.",
+    "text": "Eu acredito que esse é o nosso grande sonho, e que a gente consiga ter verba para isso.",
     "startTime": "14:51",
     "endTime": "14:54"
   },
@@ -915,7 +912,7 @@ export const transcriptionVeronica = [
   },
   { "text": "É...", "startTime": "15:18", "endTime": "15:19" },
   {
-    "text": "E eu quero que tornar isso doente.",
+    "text": "E eu quero que tornar isso.",
     "startTime": "15:19",
     "endTime": "15:21"
   },
@@ -976,12 +973,12 @@ export const transcriptionVeronica = [
     "endTime": "16:07"
   },
   {
-    "text": "E aproveitando a deixa, eu sempre falo que as pessoas que sonham ser atletas do movimento",
+    "text": "E aproveitando a deixa, eu sempre falo que as pessoas que sonham ser atletas do",
     "startTime": "16:09",
     "endTime": "16:15"
   },
   {
-    "text": "paralímpico e olímpico, para mim é o mesmo recado.",
+    "text": "Movimento Paralímpico e Olímpico, para mim é o mesmo recado.",
     "startTime": "16:15",
     "endTime": "16:17"
   },
@@ -1024,11 +1021,10 @@ export const transcriptionVeronica = [
     "endTime": "16:48"
   },
   {
-    "text": "nos estudos, na saúde, ajude.",
+    "text": "nos estudos, na saúde, ajuda.",
     "startTime": "16:48",
     "endTime": "16:50"
   },
-  { "text": "Ajuda.", "startTime": "16:50", "endTime": "16:50" },
   {
     "text": "Porque você pode estar fazendo uma coisa que você pode estar pensando, é pequeno,",
     "startTime": "16:51",
@@ -1045,11 +1041,10 @@ export const transcriptionVeronica = [
     "endTime": "16:59"
   },
   {
-    "text": "Alguém me ajudou lá atrás, não cobrando tão caro a sapatilha para mim e para os meus",
+    "text": "Alguém me ajudou lá atrás, não cobrando tão caro a sapatilha para mim e para os meus pais.",
     "startTime": "16:59",
     "endTime": "17:04"
   },
-  { "text": "pais.", "startTime": "17:04", "endTime": "17:04" },
   {
     "text": "E aí eu tive minha primeira sapatilha e foi ela que foi comigo até o mundial.",
     "startTime": "17:05",
@@ -1073,13 +1068,8 @@ export const transcriptionVeronica = [
     "endTime": "17:19"
   },
   {
-    "text": "Espero que vocês tenham gostado.",
-    "startTime": "17:19",
-    "endTime": "17:20"
-  },
-  {
     "text": "E espero encontrar vocês em breve.",
-    "startTime": "17:20",
+    "startTime": "17:19",
     "endTime": "17:21"
   },
   {
@@ -1088,7 +1078,7 @@ export const transcriptionVeronica = [
     "endTime": "17:23"
   },
   {
-    "text": "RP Podcast O seu programa de relatos paralímpicos.",
+    "text": "RP Podcast O seu programa de relatos Paralímpicos.",
     "startTime": "17:26",
     "endTime": "17:32"
   }
