@@ -35,8 +35,12 @@ export const StylesRepresentatividade = styled.main`
         flex-direction: column;
         gap: 12px;
         background-color: ${({ theme }) => theme.orange100};
+        
         border-radius: 12px;
         padding: 12px;
+        > h2, >p{
+          color: black;
+        }
       }
     }
     &.textContent{

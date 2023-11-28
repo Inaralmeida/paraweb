@@ -21,10 +21,10 @@ const Home = () => {
                 <img src={item.image} alt={`Capa da pagina ${item.title}`} />
               </div>
               <div className="contentCard">
-                <h3>{item.title}</h3>
+                <h3 className="subtitle">{item.title}</h3>
                 <small>Por: {item.by}</small>
                 <hr />
-                <p>{item.preview}</p>
+                <p className="small">{item.preview}</p>
 
                 <footer>
                 <a href={item.to}>Leia mais</a>
@@ -55,7 +55,7 @@ const StylesHome = styled.main`
     align-items: flex-start;
     gap: 14px;
     margin-bottom: 24px;
-    background-color: #eee1d7;
+    background-color: ${(props) => props.theme.blue25};
     border-radius: 0 8px 8px 0;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
     cursor: pointer;
@@ -94,7 +94,14 @@ const StylesHome = styled.main`
       > hr{
         width: 100%;
         height: 1px;
-        background-color: black;
+        background-color: ${(props) => props.theme.black900};
+      }
+
+      > p{
+        font-weight: 300;
+      }
+      > small{
+        font-size: 1.2rem;
       }
 
       > footer{

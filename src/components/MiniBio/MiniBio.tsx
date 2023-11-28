@@ -18,10 +18,10 @@ const MiniBio = ({ name, age, photo, text, alt, insta, linkedin }: MiniBioProps)
     <StylesMiniBio>
       <div>
       <Avatar img={photo} alt={alt} hasShadow size={100} />
-      <h3>{name}</h3>
-      <p> {age} anos</p>
+      <h3 className="subtitle">{name}</h3>
+      <p className="small"> {age} anos</p>
       <hr className="row" />
-      <p>{text}</p>
+      <p className="text">{text}</p>
       </div>
       <div className="icons">
         {linkedin !== '' &&<a href={linkedin}>
@@ -45,7 +45,7 @@ const StylesMiniBio = styled.div`
   align-items: center;
   justify-content: space-between;
   gap: 12px;
-  background-color: aliceblue;
+  background-color: ${(props) => props.theme.blue25};
   border-radius: 8px;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
   margin-bottom: 24px;
@@ -60,6 +60,11 @@ const StylesMiniBio = styled.div`
     > .row{
       width: 100%;
       color: black;
+    }
+
+    >p {
+      font-size: 1.6rem;
+      line-height: 2rem;
     }
   }
 

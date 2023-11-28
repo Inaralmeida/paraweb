@@ -5,11 +5,17 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #222;
+    color: ${(props) => props.theme.black900};
     font-family: 'Montserrat', sans-serif;
   }
 
+  body{
+    background-color: ${(props) => props.theme.white50};
+  }
 
+  :root{
+    font-size: 62.5%;
+  }
   li{
     list-style: none;
   }
@@ -17,7 +23,7 @@ export const GlobalStyle = createGlobalStyle`
   a{
     text-decoration: none;
     
-    font-size: 16px;
+    font-size: 1.6rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -39,7 +45,7 @@ export const GlobalStyle = createGlobalStyle`
     color: ${(props) => props.theme.blue500};;
     text-align: center;
     font-family: 'Montserrat';
-    font-size: 52px;
+    font-size: 5.2rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -48,43 +54,43 @@ export const GlobalStyle = createGlobalStyle`
 
   .text{
   font-family: 'Montserrat', sans-serif;
-  font-size: 18px;
+  font-size: 1.8rem;
   font-style: normal;
   font-weight: 300;
-  line-height: 30px;
+  line-height: 3rem;
   }
 
    .subtitle{
-    font-size: 24px;
+    font-size: 2.4rem;
     font-weight: 500;
     line-height: normal;
     
   }
 
    .small{
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 500;
   line-height: normal;
   }
 
   .title{
-  font-size: 32px;
+  font-size: 3.2rem;
   font-weight: 500;
   line-height: normal;
   }
 
   .text-destaque{
-    font-size: 54px;
+    font-size: 5.4rem;
     font-style: italic;
     font-weight: 400;
     line-height: normal;
     @media screen and (max-width: 623px) {
-      font-size: 32px;
+      font-size: 3.2rem;
     }
   }
 
   .title-destaque{
-    font-size: 32px;
+    font-size: 3.2rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -93,7 +99,7 @@ export const GlobalStyle = createGlobalStyle`
   .title-banner{
     color: ${(props) => props.theme.white50};
     font-family: 'Montserrat';
-    font-size: 64px;
+    font-size: 6.4rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -101,7 +107,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   legend{
-    font-size: 12px;
+    font-size: 1.2rem;
     font-weight: 100;
   }
 `;

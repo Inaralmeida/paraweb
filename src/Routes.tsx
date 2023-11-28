@@ -10,13 +10,26 @@ import Apoio from "./pages/Apoio/Apoio";
 import Sobre from "./pages/Sobre/Sobre";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer";
+import { useState } from "react";
 
 const Routes = () => {
+  const [themeVariant, setThemeVariant] = useState< 'default' | 'contrast'  >("default");
+
+  // const setContrast = ()=>{
+  //   if(themeVariant === 'default'){
+  //     setThemeVariant('contrast')
+  //   }else{
+  //     setThemeVariant('default')
+  //   }
+  // }
+
   return (
     <BrowserRouter>
-      <ThemeProvider theme={theme}>
+      <ThemeProvider theme={theme[themeVariant]}>
         <GlobalStyle />
         <Header />
+        {/* <button onClick={()=>handleSetLetter(true)}>ADD</button>
+        <button onClick={()=>handleSetLetter(false)}>remove</button> */}
         <Switch>
           <Route path="/" element={<Home />} />
           <Route path="/historias/:titulo" element={<Historias />} />

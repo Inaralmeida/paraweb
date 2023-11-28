@@ -22,10 +22,10 @@ const StyleFooter = styled.footer`
   
   > p{
     color: ${({theme}) => theme.blue500};
-    font-size: 12px;
+    font-size: 1.2rem;
     >   a {
       color: ${({theme}) => theme.blue500};
-      font-size: 12px!important;
+      font-size: 1.2rem!important;
       text-transform: capitalize!important;
     }
   }

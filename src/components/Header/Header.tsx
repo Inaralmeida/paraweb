@@ -136,7 +136,7 @@ const StylesHeader = styled.header`
       padding: 12px;
 
       > h1 {
-        font-size: 32px;
+        font-size: 3.2rem;
       }
       > .btns-menu-open-and-closed {
         display: flex;

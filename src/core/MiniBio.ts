@@ -32,7 +32,7 @@ export const miniBioData = [
   email:'leandrofazano2001@gmail.com ',
   text:'Desde pequeno apaixonado por esportes e por leitura. Resolvi escolher a profissão que pode questionar, estar perto e entender o dia a dia das pessoas que mais admiro, seja no esporte ou na política. Estagiei em 2021 no Greenpeace e atualmente faço textos para um campeonato de futebol Society.',
   insta: 'https://www.instagram.com/fazaano/',
-  linkedin: 'Linkedin:https://www.linkedin.com/in/leandro-fazano-cardoso-b34bb221b?originalSubdomain=br'
+  linkedin: ''
 },
 
 ]

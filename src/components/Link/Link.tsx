@@ -64,4 +64,7 @@ const StyleLink = styled.li`
   justify-content: center;
   padding: 10px 12px;
   flex-grow: 2;
+  > a{
+    color: black !important;
+  }
 `;

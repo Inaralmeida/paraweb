@@ -109,7 +109,7 @@ width: 100%;
   background-color: #f1f2f4;
 
   > span {
-    font-size: 16px;
+    font-size: 1.6rem;
     word-wrap: break-word;
     gap: 2px;
 
@@ -128,7 +128,7 @@ width: 100%;
     p,
     small {
       color: black;
-      font-size: 18px;
+      font-size: 1.8rem;
       font-weight: bold;
     }
 

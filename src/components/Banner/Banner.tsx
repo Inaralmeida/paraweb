@@ -29,9 +29,10 @@ const StyleBanner = styled.div<IBannerProps>`
     justify-content: center;
     background-color: ${(props) => !props.opacity && props.theme.shadow50};
     text-align: center;
+    color: #f2f2f2 !important;
 
     @media screen and (max-width: 475px) {
-      font-size: 28px;
+      font-size: 2.8rem;
     }
   }
 `;

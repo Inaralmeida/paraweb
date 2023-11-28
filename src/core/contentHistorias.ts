@@ -66,7 +66,7 @@ export const contentHistorias: IContetHistorysProps[] = [
       "Atleta da classe WH1, voltada para cadeirantes, o jovem, que se machucou jogando futebol e viu no parabadminton a oportunidade de realizar um sonho esportivo, conta detalhes de como uma decepção o fez virar uma das maiores promessas do paradesporto brasileiro ",
     phraseImpact: "O que mais me inspirou a seguir no esporte foi a minha primeira derrota",
     nameAuthor: "Laís Gonella",
-    linkPodcast: "/historias/pdcArthur.ogg",
+    linkPodcast: "/pdcArthur.mp3",
     linkTranscription: "/transcriptions/athur.ts",
     transcription: transcriptionArthur,
     publicationDate: "27 de novembro de 2023",
