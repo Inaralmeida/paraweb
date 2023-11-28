@@ -8,8 +8,9 @@ const Home = () => {
   return (
     <div>
       <Banner
+      opacity
         title=""
-        image="https://swimchannel.net/br/wp-content/uploads/2020/09/92a1fb48105b462e8ca2efde677ecee1.jpg"
+        image="/banners/banner_home.jpg"
       />
 
       <StylesHome>
@@ -54,7 +55,7 @@ const StylesHome = styled.main`
     align-items: flex-start;
     gap: 14px;
     margin-bottom: 24px;
-    background-color: aliceblue;
+    background-color: #eee1d7;
     border-radius: 0 8px 8px 0;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
     cursor: pointer;
@@ -70,7 +71,7 @@ const StylesHome = styled.main`
       display: flex;
       align-items: flex-start;
       justify-content: center;
-      border-radius: 8px;
+     
     }
 
 
@@ -78,7 +79,7 @@ const StylesHome = styled.main`
         width: 350px;
         height: 200px;
         object-fit: cover;
-      border-radius: 8px;
+        border-radius: 8px 0 0 8px;
 
       }
 
@@ -93,6 +94,7 @@ const StylesHome = styled.main`
       > hr{
         width: 100%;
         height: 1px;
+        background-color: black;
       }
 
       > footer{

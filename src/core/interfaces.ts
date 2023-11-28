@@ -47,6 +47,7 @@ export interface IAvatarProps {
 export interface IBannerProps {
   image: string;
   title: string;
+  opacity?: boolean
 }
 
 export interface ILinkProps {

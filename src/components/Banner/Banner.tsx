@@ -1,9 +1,9 @@
 import styled from "styled-components";
 import { IBannerProps } from "../../core/interfaces";
 
-const Banner = ({ image, title }: IBannerProps) => {
+const Banner = ({ image, title, opacity }: IBannerProps) => {
   return (
-    <StyleBanner image={image} title={title}>
+    <StyleBanner image={image} title={title} opacity={opacity}>
       <h2 className="title-banner">{title}</h2>
     </StyleBanner>
   );
@@ -27,7 +27,7 @@ const StyleBanner = styled.div<IBannerProps>`
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: ${(props) => props.theme.shadow50};
+    background-color: ${(props) => !props.opacity && props.theme.shadow50};
     text-align: center;
 
     @media screen and (max-width: 475px) {
