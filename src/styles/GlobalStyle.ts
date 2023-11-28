@@ -14,7 +14,8 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   :root{
-    font-size: 62.5%;
+    /* font-size: 90%; */
+    font-size: ${(props)=> props.theme.fontSize}%;
   }
   li{
     list-style: none;
