@@ -1,11 +1,12 @@
-import MuiAudioPlayer from 'mui-audio-player-plus';
+import ReactAudioPlayer from "react-audio-player";
+
 const Player = ({ url }: { url: string }) => {
 
 
   return (
     <div>
-      {/* <ReactAudioPlayer controls src={url} muted/> */}
-      <MuiAudioPlayer id="inline-timeline" display="timeline" containerWidth={300} inline src={url} />
+      <ReactAudioPlayer controls src={url} muted/>
+
     </div>
   );
 };
