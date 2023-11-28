@@ -25,9 +25,18 @@ const Acessibilidade = ({handleMore, handleRemove, handleSetContrast}:IAcessibil
       </div>
       {showOptions && (
         <ul>
-        <button onClick={handleMore}><AiOutlinePlus />A</button>
-        <button onClick={handleRemove}><IoIosRemove />A</button>
-        <button onClick={handleSetContrast}>
+        <button onClick={()=>{
+          handleMore()
+          setShowOptions(false)
+        }}><AiOutlinePlus />A</button>
+        <button onClick={()=>{
+          handleRemove()
+          setShowOptions(false)
+        }}><IoIosRemove />A</button>
+        <button onClick={()=>{
+          handleSetContrast()
+          setShowOptions(false)
+        }}>
             <MdLightMode />
         </button>
       </ul>
@@ -50,7 +59,8 @@ top: 30vh;
     border-radius:8px 8px ${(props)=> props.showOptions ? '0 0 ' : '8px 8px'};
     width: 100%;
     z-index: 4;
-  }
+    box-shadow: -2px 2px 8px rgba(0, 0, 0, 0.55);}
+    
 
 }
 > ul{
@@ -66,6 +76,7 @@ top: 30vh;
   background-color: ${(props) => props.theme.blue500};
   color: ${(props) => props.theme.black900};
   z-index: 2;
+  box-shadow: -2px 2px 8px rgba(0, 0, 0, 0.55);
 
   > button{
     border: 1px solid ${(props) => props.theme.black900};
