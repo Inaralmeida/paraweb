@@ -99,7 +99,7 @@ const Historias = () => {
                 preload="none"
                 onListen={(e) => setTimeCurrent(e)}
               />
-               {/* <MuiAudioPlayer id="inline-timeline" display="timeline" containerWidth={300} inline src={contentPage.linkPodcast} /> */}
+
               <Transcription
                 currentTime={timeCurrent}
                 transcription={contentPage.transcription}
