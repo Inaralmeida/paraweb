@@ -2,7 +2,7 @@ export const homeData = [
   {
     title:`HISTÓRIAS DE VIDA`,
     preview:`Confira o Podcast Relatos Paralímpicos, um programa que destaca as experiências dos atletas do paradesporto brasileiro, abordando seus desenvolvimentos social e profissional. Esse espaço mergulha na vida de cada convidado, explorando desde seus maiores desafios até a conquista de inúmeros pódios e títulos. A cada episódio, proporcionamos uma visão autêntica e real da jornada dentro do esporte paralímpico.`,
-    by:`Lais Gonella`,
+    by:`Lais Gonella Solteiro`,
     image:`/banners/banner_historiasdevida_pp.jpeg`,
     to:`/historias/daniel-dias`,
   },
@@ -16,7 +16,7 @@ export const homeData = [
   {
     title:`BUSCA POR APOIO`,
     preview:`Grande parte dos atletas paralímpicos, não tem o esporte como a principal fonte de renda. A falta de visibilidade, investimentos e apoio podem comprometer a vida financeira e a carreira do atleta. Nesta reportagem você acompanha mais sobre este tema por meio de relatos de atletas, institutos e patrocinadores.`,
-    by:`Giovanni V. Panatto`,
+    by:`Giovanni Viana Panatto`,
     image:`/banners/busca_Por_Apop_banner.jpeg`,
     to:`http://localhost:5173/apoio/historia-um`,
   },

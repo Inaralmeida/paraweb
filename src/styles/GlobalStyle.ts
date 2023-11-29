@@ -111,4 +111,8 @@ export const GlobalStyle = createGlobalStyle`
     font-size: 1.2rem;
     font-weight: 100;
   }
+
+  h3{
+    word-wrap: break-word;
+  }
 `;

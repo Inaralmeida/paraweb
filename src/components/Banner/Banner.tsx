@@ -31,12 +31,12 @@ const StyleBanner = styled.div<IBannerProps>`
     text-align: center;
     color: #f2f2f2 !important;
 
-    @media screen and (max-width: 475px) {
+    @media screen and (max-width: 500px) {
       font-size: 2.8rem;
     }
   }
 
-  @media screen and (max-width: 475px) {
+  @media screen and (max-width: 500px) {
       background-size: cover;
       height: 345px;
     }

@@ -27,12 +27,12 @@ const Routes = () => {
   }
 
   const handleMoreFontSize = ()=>{
-   const value = fontSizeDefault < 5 ? fontSizeDefault + 1 : 1
+   const value = fontSizeDefault < 3 ? fontSizeDefault + 1 : 1
    setFontSizeDefault(value)
   }
 
   const handleRemoveFontSize = ()=>{
-    const value = fontSizeDefault > 1 ? fontSizeDefault - 1 : 5
+    const value = fontSizeDefault > 1 ? fontSizeDefault - 1 : 3
     setFontSizeDefault(value)
   }
 
@@ -43,10 +43,6 @@ useEffect(()=>{
     setFontSize(67.5)
   }else if(fontSizeDefault === 3){
     setFontSize(72.5)
-  }else if(fontSizeDefault === 4){
-    setFontSize(77.5)
-  }else if(fontSizeDefault === 5){
-    setFontSize(82.5)
   }
   
 },[fontSizeDefault])

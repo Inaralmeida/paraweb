@@ -121,7 +121,7 @@ const StylesHome = styled.main`
 
   @media screen and (max-width: 768px) {
     > .card{
-      padding: 12px;
+      padding-top: 24px;
       flex-direction: column;
       border-radius: 8px;
       > .picture{
@@ -131,6 +131,15 @@ const StylesHome = styled.main`
 
         }
       }
+    }
+  }
+
+  @media screen and (max-width: 475px){
+    > .card{
+      padding-top: 12px;
+      flex-direction: column;
+      border-radius: 8px;
+      
     }
   }
 `;

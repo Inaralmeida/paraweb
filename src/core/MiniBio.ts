@@ -16,7 +16,7 @@ export const miniBioData = [
   insta: 'https://instagram.com/lais_gonella?igshid=OGQ5ZDc2ODk2ZA==',
   linkedin: 'https://www.linkedin.com/in/la%C3%ADs-gonella-5069ab1b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
 },
-{ name:' Rebeca Barreto da Silva',
+{ name:'Rebeca Barreto da Silva',
   age:'24',
   photo:'/bios/rebeca.jpeg',
   alt:'Rebeca Barreto da Silva',

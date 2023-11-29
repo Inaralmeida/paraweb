@@ -57,6 +57,10 @@ const StylesMiniBio = styled.div`
     justify-content: flex-end;
     gap: 12px;
 
+    h3{
+      word-break: break-word;
+      width: 100%;
+    }
     > .row{
       width: 100%;
       color: black;
