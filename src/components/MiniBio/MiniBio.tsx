@@ -24,7 +24,7 @@ const MiniBio = ({ name, age, photo, text, alt, insta, linkedin }: MiniBioProps)
       <p className="text">{text}</p>
       </div>
       <div className="icons">
-        {linkedin !== '' &&<a href={linkedin}>
+        {linkedin  &&<a href={linkedin}>
         <FaLinkedin size={33} cursor="pointer" /></a>}
         <a href={insta}>
         <AiFillInstagram size={36}  cursor="pointer" />
