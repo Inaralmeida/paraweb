@@ -121,7 +121,7 @@ const StylesHome = styled.main`
 
   @media screen and (max-width: 768px) {
     > .card{
-      padding-top: 12px;
+      padding: 12px;
       flex-direction: column;
       border-radius: 8px;
       > .picture{
