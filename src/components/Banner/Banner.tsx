@@ -35,4 +35,9 @@ const StyleBanner = styled.div<IBannerProps>`
       font-size: 2.8rem;
     }
   }
+
+  @media screen and (max-width: 475px) {
+      background-size: cover;
+      height: 345px;
+    }
 `;
