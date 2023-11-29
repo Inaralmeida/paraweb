@@ -1,6 +1,6 @@
 export const transcriptionVeronica = [
   {
-    "text": "RP Podcast, o seu programa de relatos Paralímpicos.",
+    "text": "RP Podcast, o seu programa de relatos paralímpicos.",
     "startTime": "00:02",
     "endTime": "00:08"
   },
@@ -1078,7 +1078,7 @@ export const transcriptionVeronica = [
     "endTime": "17:23"
   },
   {
-    "text": "RP Podcast O seu programa de relatos Paralímpicos.",
+    "text": "RP Podcast O seu programa de relatos paralímpicos.",
     "startTime": "17:26",
     "endTime": "17:32"
   }
