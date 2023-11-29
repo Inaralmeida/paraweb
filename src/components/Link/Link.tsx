@@ -62,6 +62,7 @@ const StyleLink = styled.li`
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
   padding: 10px 12px;
   flex-grow: 2;
   > a{
